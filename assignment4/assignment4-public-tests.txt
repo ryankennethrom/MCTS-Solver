@@ -1,0 +1,28 @@
+game 5 5
+= 1
+timelimit 30
+= 1
+set_opponent random_player.py
+= 1
+set_student_as_player 1
+= 1
+?play_game
+1
+= 1
+set_student_as_player 2
+= 1
+?play_game
+2
+= 1
+set_opponent minimax_player.py
+= 1
+set_student_as_player 1
+= 1
+?play_game
+1
+= 1
+set_student_as_player 2
+= 1
+?play_game
+2
+= 1
