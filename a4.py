@@ -402,10 +402,7 @@ class CommandInterface:
             'value': sys.maxsize,
             'wins':0,
             'visit_count': 0,
-            'transition_move': None,
-            'parent': None,
-            'player': None,
-            'children': []
+            'parent': None
         })
 
         # Save root data
@@ -442,7 +439,7 @@ class CommandInterface:
 
         except TimeoutException:
             if self.debug == 1:
-                self.show_root_children_stats(rootStateValue, tree)
+                self.show_root_children_stats(moves, tree)
             self.numberOfDigitsInRow = rootNumDigitsRow
             self.numberOfDigitsInCol = rootNumDigitsCol
             move = self.final_move_select(tree, moves, rootBoard, rootStateValue, rootPlayer)
@@ -454,24 +451,27 @@ class CommandInterface:
     def get_move(self, tree, legal_moves, rootBoard, rootStateValue, rootPlayer):
         
         # Add root to tree
-        self.addToTree(rootStateValue, tree, self.player, legal_moves)
+        self.addToTree(rootStateValue, None, tree, self.player, 0, 1)
         
         mcts_solver_output = 0
         counter = 0
 
         while mcts_solver_output != float('-inf') and mcts_solver_output != float('inf'): 
-        # while counter <= 1:
+        # while counter <= 2:
             mcts_solver_output = self.MCTSSolver(tree, rootStateValue)
             counter += 1
         if self.debug == 1:
             print("MCTSSolver output : " + str(mcts_solver_output))
-            self.show_root_children_stats(rootStateValue, tree)
+            self.show_root_children_stats(legal_moves, tree)
         return self.final_move_select(tree, legal_moves, rootBoard, rootStateValue, rootPlayer) 
     
-    def show_root_children_stats(self, rootStateValue, tree):
+    def show_root_children_stats(self, legal_moves, tree):
         print("Root Chilren Stats: ")
-        for childHash in tree[rootStateValue]['children']:
-            print(tree[childHash])
+        for move in legal_moves:
+            self.simulateMove(move)
+            childHash = self.zobristStateValue
+            self.undoSimulatedMove(move)
+            print("Move: "+ str(move)+ " "+ str(tree[childHash]))
 
     # O(n)
     def final_move_select(self, tree, legal_moves, rootBoard, rootStateValue, rootPlayer):
@@ -510,15 +510,9 @@ class CommandInterface:
         if(bestChild['value'] != float('-inf') and bestChild['value'] != float('inf')):
             if(bestChild['visit_count'] == 0):
                 R = -self.playOut(bestChild, best_child_move)
-                self.simulateMove(best_child_move)
-                self.incrementNodeVisits(best_child_hash, tree)
-                self.incrementNodeWins(best_child_hash, tree) if R == 1 else None
-                self.updateNodeValue(best_child_hash, tree)
-                best_child_legal_moves = self.get_legal_moves()
-                self.undoSimulatedMove(best_child_move)
-    
-                self.addToTree(best_child_hash, tree, self.changePlayerTurn(self.player), best_child_legal_moves)
                 
+                self.addToTree(best_child_hash, self.zobristStateValue, tree, self.changePlayerTurn(self.player), 1 if R == 1 else 0, 1)
+
                 self.incrementNodeWins(self.zobristStateValue, tree) if R == -1 else None
                 self.updateNodeValue(self.zobristStateValue, tree) if self.hasParent(self.zobristStateValue, tree) else None
                 return R
@@ -534,11 +528,10 @@ class CommandInterface:
             return R
         else:
             if(R == float('-inf')):
-                for childHash in tree[self.zobristStateValue]['children']:
-                #for move in legal_moves:
-                #    self.simulateMove(move)
-                #    childHash = self.zobristStateValue
-                #    self.undoSimulatedMove(move)
+                for move in legal_moves:
+                    self.simulateMove(move)
+                    childHash = self.zobristStateValue
+                    self.undoSimulatedMove(move)
                     if (tree[childHash]['value'] != R):
                         R = -1
                         self.incrementNodeWins(self.zobristStateValue, tree)
@@ -593,7 +586,7 @@ class CommandInterface:
             current_node_wins = tree[nodeHash]['wins']
             current_node_visits = tree[nodeHash]['visit_count']
             exploitation = current_node_wins / current_node_visits
-            exploration = c * math.sqrt(math.log(total_parent_visits) / current_node_visits)
+            # exploration = c * math.sqrt(math.log(total_parent_visits) / current_node_visits)
             tree[nodeHash]['value'] = exploitation
 
     def selectionPolicy(self, legal_moves):
@@ -602,6 +595,8 @@ class CommandInterface:
     # Time complexity : O(n^2)
     def playOut(self, best_child, best_child_move):
         self.simulateMove(best_child_move)
+
+        best_child_player = copy.deepcopy(self.player)
     
         move_stack = [best_child_move]
         while True:
@@ -614,7 +609,7 @@ class CommandInterface:
             self.simulateMove(move)
             move_stack.append(move)
 
-        if(self.player == best_child['player']):
+        if(self.player == best_child_player):
             for move in move_stack:
                 # undo move
                 self.undoSimulatedMove(move)
@@ -660,17 +655,20 @@ class CommandInterface:
         return best_child_node, best_child_hash, best_child_move
             
     # Add node to tree. Time Complexity: O(n^2)
-    def addToTree(self, newNodeHash, tree, toPlayAtThisNode, new_node_legal_moves):
-        tree[newNodeHash]['player'] = toPlayAtThisNode
-        for move in new_node_legal_moves:
-            col = int(move[0])
-            row = int(move[1])
-            digit = int(move[2])
-            childNodeHash = newNodeHash ^ self.zobristHashTable[len(self.board[0])*row+col][2] ^ self.zobristHashTable[len(self.board[0])*row+col][2 if digit == None else digit]
-            tree[newNodeHash]['children'].append(childNodeHash)
-            tree[childNodeHash]['parent'] = newNodeHash
-            tree[childNodeHash]['transition_move'] = move
-            tree[childNodeHash]['player'] = self.changePlayerTurn(toPlayAtThisNode)
+    def addToTree(self, newNodeHash, parentHash, tree, toPlayAtThisNode, wins, visitCount):
+        tree[newNodeHash]['wins'] = wins
+        tree[newNodeHash]['visit_count'] = visitCount
+        tree[newNodeHash]['parent'] = parentHash
+        tree[newNodeHash]['value'] = wins / visitCount
+        # for move in new_node_legal_moves:
+        #    col = int(move[0])
+        #    row = int(move[1])
+        #    digit = int(move[2])
+        #    childNodeHash = newNodeHash ^ self.zobristHashTable[len(self.board[0])*row+col][2] ^ self.zobristHashTable[len(self.board[0])*row+col][2 if digit == None else digit]
+        #    tree[newNodeHash]['children'].append(childNodeHash)
+        #    tree[childNodeHash]['parent'] = newNodeHash
+        #    tree[childNodeHash]['transition_move'] = move
+        #    tree[childNodeHash]['player'] = self.changePlayerTurn(toPlayAtThisNode)
 
 
 
