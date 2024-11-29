@@ -395,7 +395,7 @@ class CommandInterface:
         return True
 
     def genmove(self, args):
-        self.debug = 1
+        self.debug = 0
 
         # Initialize tree
         tree = defaultdict(lambda: {
@@ -512,8 +512,8 @@ class CommandInterface:
                 R = -self.playOut(bestChild, best_child_move)
                 self.simulateMove(best_child_move)
                 self.incrementNodeVisits(best_child_hash, tree)
-                # self.incrementNodeWins(best_child_hash, tree) if R == 1 else None
-                # self.updateNodeValue(best_child_hash, tree)
+                self.incrementNodeWins(best_child_hash, tree) if R == 1 else None
+                self.updateNodeValue(best_child_hash, tree)
                 best_child_legal_moves = self.get_legal_moves()
                 self.undoSimulatedMove(best_child_move)
     
