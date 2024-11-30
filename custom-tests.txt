@@ -5,6 +5,69 @@ timelimit 30
 set_opponent minimax_player.py
 = 1
 set_student_as_player 2
+= 2
+?play_game
+2
+= 1
+set_opponent minimax_player.py
+= 1
+set_student_as_player 2
+= 1
+?play_game
+2
+= 1
+set_opponent minimax_player.py
+= 1
+set_student_as_player 2
+= 2
+?play_game
+2
+= 1
+set_opponent minimax_player.py
+= 1
+set_student_as_player 2
+= 1
+?play_game
+2
+= 1
+set_opponent minimax_player.py
+= 1
+set_student_as_player 2
+= 2
+?play_game
+2
+= 1
+set_opponent minimax_player.py
+= 1
+set_student_as_player 2
+= 1
+?play_game
+2
+= 1
+set_opponent minimax_player.py
+= 1
+set_student_as_player 2
+= 2
+?play_game
+2
+= 1
+set_opponent minimax_player.py
+= 1
+set_student_as_player 2
+= 1
+?play_game
+2
+= 1
+set_opponent minimax_player.py
+= 1
+set_student_as_player 2
+= 2
+?play_game
+2
+= 1
+set_opponent minimax_player.py
+= 1
+set_student_as_player 2
 = 1
 ?play_game
 2

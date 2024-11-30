@@ -284,7 +284,6 @@ class CommandInterface:
         self.player = player_copy
         self.play(move)
         print(" ".join(move))
-
         return True
     
 if __name__ == "__main__":

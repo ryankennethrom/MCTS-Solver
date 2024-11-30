@@ -476,7 +476,7 @@ class CommandInterface:
                 out+="Move: "+str(move)+" not added to tree\n"
                 continue
             total_children_visits += tree[childHash]['visits']
-            value = (tree[childHash]['wins']/tree[childHash]['visits'] + 1/math.sqrt(tree[childHash]['visits']))
+            value = (tree[childHash]['wins']/tree[childHash]['visits'] - (0.7)/math.sqrt(tree[childHash]['visits']))
             out+="Move: "+ str(move)+ " Value: "+ str(value) +" "+ str(tree[childHash])+"\n"
         return out
     
@@ -498,7 +498,7 @@ class CommandInterface:
             self.undoSimulatedMove(move)
             if simulatedStateHash not in tree:
                 continue
-            current_measure = (tree[simulatedStateHash]['wins']/tree[simulatedStateHash]['visits'] + 1/math.sqrt(tree[simulatedStateHash]['visits'])) 
+            current_measure = (tree[simulatedStateHash]['wins']/tree[simulatedStateHash]['visits'] - (0.7)/math.sqrt(tree[simulatedStateHash]['visits'])) 
             if current_measure >= best_measure:
                 best_measure = current_measure
                 final_move = move
@@ -626,15 +626,13 @@ class CommandInterface:
             return 1
         else:
             raise Exception("Unhandled error at changePlayerTurn()")
-    
+
     def heuristic(self, move):
         col = int(move[0])
         row = int(move[1])
         digit = int(move[2])
-        h = self.numberOfDigitsInRow[row][0] + self.numberOfDigitsInRow[row][1] + self.numberOfDigitsInCol[col][0] +
-self.numberOfDigitsInCol[col][1]
+        h = self.numberOfDigitsInRow[row][digit] + self.numberOfDigitsInCol[col][digit]
         return h
-    
     # Return best child of a node. Time Complexity:  O(n^2).
     def selectBestChildNode(self, tree, legal_moves):
         best_value = float('-inf')
@@ -651,8 +649,8 @@ self.numberOfDigitsInCol[col][1]
                 ties =[move]
                 break
             current_node_visits = tree[simulatedStateHash]['visits']
-            c = 1.4
-            k = 1
+            c = 10
+            k = 0
             exploitation = tree[simulatedStateHash]['wins']/tree[simulatedStateHash]['visits'] + k * self.heuristic(move)
             exploration = c * math.sqrt(math.log(total_parent_visits) / (current_node_visits))
 
@@ -664,7 +662,7 @@ self.numberOfDigitsInCol[col][1]
                 ties.append(move)
 
         return random.choice(ties)
-
+            
     # Add node to tree. Time Complexity: O(n^2)
     def addToTree(self, tree):
         currentStateHash = self.getStateHash()
