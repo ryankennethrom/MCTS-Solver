@@ -510,8 +510,8 @@ class CommandInterface:
 
     # O(d * n^2)
     def MCTSSolver(self, tree):
-        legal_moves = self.get_legal_moves()
         currentStateHash = self.getStateHash()
+        legal_moves = tree[currentStateHash]['children']
         
         tree[currentStateHash]['visits']+=1
 
@@ -592,7 +592,7 @@ class CommandInterface:
         best_child_player = copy.deepcopy(self.player)
     
         move_stack = [best_child_move]
-        
+        toPutBack = []
         while True:
             if len(legal_moves) <= 0:
                 break
@@ -602,12 +602,13 @@ class CommandInterface:
             row = int(rand_move[1])
             num = int(rand_move[2])
             legal_moves[rand_idx] = legal_moves[-1]
+            toPutBack.append(rand_move)
             legal_moves.pop()
             if not self.is_legal(col, row, num):    
                 continue
             self.simulateMove(rand_move)
             move_stack.append(rand_move)
-        
+        legal_moves += toPutBack
         if(self.player == best_child_player):
             for move in move_stack:
                 # undo move
@@ -669,9 +670,11 @@ class CommandInterface:
         currentStateHash = self.getStateHash()
         if currentStateHash in tree:
             return
+        legal_moves = self.get_legal_moves()
         tree[currentStateHash] = {
                 'wins':0,
-                'visits':0
+                'visits':0,
+                'children': legal_moves,
         }
 
 

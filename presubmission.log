@@ -1,0 +1,3382 @@
+Script started on 2024-11-30 17:02:42-07:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="116" LINES="47"]
+rom@ug09:~/assignment4>exitpython3 a4test.py a4.py assignment4-public-tests.txt -v[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kpython3 a4test.py a4.py assignment4-public-tests.txt -v
+Test 1 / 12 (8%)Set game command as: game 5 5
+Test 2 / 12 (17%)Set timelimit command as: timelimit 30
+Test 3 / 12 (25%)Set opponent as: random_player.py
+Test 4 / 12 (33%)Set student's program as the first player.
+Test 5 / 12 (42%)student : game 5 5
+= 1
+opponent : game 5 5
+= 1
+student : timelimit 30
+= 1
+opponent : timelimit 30
+= 1
+Begin game:
+
+Student program to play:
+student : genmove
+2 3 0
+Root board state: 
+.....
+.....
+.....
+.....
+.....
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
+Root numOfDigitsInCol: 
+[[0, 0], [0, 0], [0, 0], [0, 0], [0, 0]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.5591461748637858 {'wins': 379, 'visits': 646}
+Move: ['0', '0', '1'] Value: 0.5689581091841557 {'wins': 390, 'visits': 654}
+Move: ['1', '0', '0'] Value: 0.5600344261412706 {'wins': 379, 'visits': 645}
+Move: ['1', '0', '1'] Value: 0.5508595467011228 {'wins': 368, 'visits': 636}
+Move: ['2', '0', '0'] Value: 0.5648514333883465 {'wins': 385, 'visits': 650}
+Move: ['2', '0', '1'] Value: 0.5465225836614443 {'wins': 363, 'visits': 632}
+Move: ['3', '0', '0'] Value: 0.5714953533833846 {'wins': 394, 'visits': 658}
+Move: ['3', '0', '1'] Value: 0.521716670359681 {'wins': 335, 'visits': 609}
+Move: ['4', '0', '0'] Value: 0.5492872196570977 {'wins': 367, 'visits': 636}
+Move: ['4', '0', '1'] Value: 0.5384 {'wins': 354, 'visits': 625}
+Move: ['0', '1', '0'] Value: 0.5492872196570977 {'wins': 367, 'visits': 636}
+Move: ['0', '1', '1'] Value: 0.5714953533833846 {'wins': 394, 'visits': 658}
+Move: ['1', '1', '0'] Value: 0.5794821575663821 {'wins': 404, 'visits': 666}
+Move: ['1', '1', '1'] Value: 0.5613518759215337 {'wins': 381, 'visits': 647}
+Move: ['2', '1', '0'] Value: 0.5821976239870537 {'wins': 407, 'visits': 668}
+Move: ['2', '1', '1'] Value: 0.5479092277021769 {'wins': 365, 'visits': 634}
+Move: ['3', '1', '0'] Value: 0.5591461748637858 {'wins': 379, 'visits': 646}
+Move: ['3', '1', '1'] Value: 0.5362412387802639 {'wins': 351, 'visits': 622}
+Move: ['4', '1', '0'] Value: 0.5522240386889637 {'wins': 370, 'visits': 638}
+Move: ['4', '1', '1'] Value: 0.5317124206269928 {'wins': 346, 'visits': 618}
+Move: ['0', '2', '0'] Value: 0.5667875876342222 {'wins': 388, 'visits': 653}
+Move: ['0', '2', '1'] Value: 0.5613518759215337 {'wins': 381, 'visits': 647}
+Move: ['1', '2', '0'] Value: 0.5613518759215337 {'wins': 381, 'visits': 647}
+Move: ['1', '2', '1'] Value: 0.5788702018924532 {'wins': 403, 'visits': 665}
+Move: ['2', '2', '0'] Value: 0.5428363900070299 {'wins': 359, 'visits': 629}
+Move: ['2', '2', '1'] Value: 0.5247452108248026 {'wins': 339, 'visits': 613}
+Move: ['3', '2', '0'] Value: 0.5591461748637858 {'wins': 379, 'visits': 646}
+Move: ['3', '2', '1'] Value: 0.5613518759215337 {'wins': 381, 'visits': 647}
+Move: ['4', '2', '0'] Value: 0.5362412387802639 {'wins': 351, 'visits': 622}
+Move: ['4', '2', '1'] Value: 0.5346335217384632 {'wins': 350, 'visits': 622}
+Move: ['0', '3', '0'] Value: 0.5414226831965415 {'wins': 357, 'visits': 627}
+Move: ['0', '3', '1'] Value: 0.5492872196570977 {'wins': 367, 'visits': 636}
+Move: ['1', '3', '0'] Value: 0.5648514333883465 {'wins': 385, 'visits': 650}
+Move: ['1', '3', '1'] Value: 0.5479092277021769 {'wins': 365, 'visits': 634}
+Move: ['2', '3', '0'] Value: 0.6070872581299107 {'wins': 441, 'visits': 696}
+Move: ['2', '3', '1'] Value: 0.5714953533833846 {'wins': 394, 'visits': 658}
+Move: ['3', '3', '0'] Value: 0.586092151851872 {'wins': 412, 'visits': 672}
+Move: ['3', '3', '1'] Value: 0.5578198624897059 {'wins': 377, 'visits': 644}
+Move: ['4', '3', '0'] Value: 0.5465225836614443 {'wins': 363, 'visits': 632}
+Move: ['4', '3', '1'] Value: 0.5689581091841557 {'wins': 390, 'visits': 654}
+Move: ['0', '4', '0'] Value: 0.5224775005748855 {'wins': 336, 'visits': 610}
+Move: ['0', '4', '1'] Value: 0.5558150008398737 {'wins': 374, 'visits': 641}
+Move: ['1', '4', '0'] Value: 0.5391150249129784 {'wins': 355, 'visits': 626}
+Move: ['1', '4', '1'] Value: 0.5169954984681845 {'wins': 330, 'visits': 605}
+Move: ['2', '4', '0'] Value: 0.577640798694695 {'wins': 401, 'visits': 663}
+Move: ['2', '4', '1'] Value: 0.5346335217384632 {'wins': 350, 'visits': 622}
+Move: ['3', '4', '0'] Value: 0.5398277868648031 {'wins': 356, 'visits': 627}
+Move: ['3', '4', '1'] Value: 0.5899408284023668 {'wins': 417, 'visits': 676}
+Move: ['4', '4', '0'] Value: 0.5584840385443715 {'wins': 378, 'visits': 645}
+Move: ['4', '4', '1'] Value: 0.5421306533111492 {'wins': 358, 'visits': 628}
+= 1
+opponent : legal 2 3 0
+yes
+= 1
+opponent : play 2 3 0
+= 1
+opponent : show
+.....
+.....
+.....
+..0..
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+1 1 1
+= 1
+student : play 1 1 1
+= 1
+opponent : show
+.....
+.1...
+.....
+..0..
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+3 3 0
+Root board state: 
+.....
+.1...
+.....
+..0..
+.....
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[0, 0], [0, 1], [0, 0], [1, 0], [0, 0]]
+Root numOfDigitsInCol: 
+[[0, 0], [0, 1], [1, 0], [0, 0], [0, 0]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.5269418164765463 {'wins': 389, 'visits': 703}
+Move: ['0', '0', '1'] Value: 0.5229834572519056 {'wins': 383, 'visits': 697}
+Move: ['1', '0', '0'] Value: 0.5342928484052621 {'wins': 398, 'visits': 710}
+Move: ['1', '0', '1'] Value: 0.5433569847069468 {'wins': 410, 'visits': 720}
+Move: ['2', '0', '0'] Value: 0.5458079093012387 {'wins': 414, 'visits': 724}
+Move: ['2', '0', '1'] Value: 0.5545439999212511 {'wins': 426, 'visits': 734}
+Move: ['3', '0', '0'] Value: 0.5458079093012387 {'wins': 414, 'visits': 724}
+Move: ['3', '0', '1'] Value: 0.549605724466312 {'wins': 419, 'visits': 728}
+Move: ['4', '0', '0'] Value: 0.5677729473164256 {'wins': 445, 'visits': 750}
+Move: ['4', '0', '1'] Value: 0.5557193968033278 {'wins': 428, 'visits': 736}
+Move: ['0', '1', '0'] Value: 0.5533622281941856 {'wins': 424, 'visits': 732}
+Move: ['0', '1', '1'] Value: 0.5672129438494451 {'wins': 444, 'visits': 749}
+Move: ['2', '1', '0'] Value: 0.5677729473164256 {'wins': 445, 'visits': 750}
+Move: ['2', '1', '1'] Value: 0.5303123762637096 {'wins': 393, 'visits': 706}
+Move: ['3', '1', '0'] Value: 0.5470233181550544 {'wins': 416, 'visits': 726}
+Move: ['3', '1', '1'] Value: 0.518187680616832 {'wins': 377, 'visits': 692}
+Move: ['4', '1', '0'] Value: 0.5568884704741347 {'wins': 430, 'visits': 738}
+Move: ['4', '1', '1'] Value: 0.5303123762637096 {'wins': 393, 'visits': 706}
+Move: ['0', '2', '0'] Value: 0.5677729473164256 {'wins': 445, 'visits': 750}
+Move: ['0', '2', '1'] Value: 0.5277112566676803 {'wins': 389, 'visits': 702}
+Move: ['1', '2', '0'] Value: 0.522317143187382 {'wins': 382, 'visits': 696}
+Move: ['1', '2', '1'] Value: 0.5055650395386311 {'wins': 361, 'visits': 678}
+Move: ['2', '2', '0'] Value: 0.549605724466312 {'wins': 419, 'visits': 728}
+Move: ['2', '2', '1'] Value: 0.536197136196429 {'wins': 401, 'visits': 713}
+Move: ['3', '2', '0'] Value: 0.5568884704741347 {'wins': 430, 'visits': 738}
+Move: ['3', '2', '1'] Value: 0.5168297163026243 {'wins': 375, 'visits': 690}
+Move: ['4', '2', '0'] Value: 0.5388564493147283 {'wins': 404, 'visits': 715}
+Move: ['4', '2', '1'] Value: 0.5249710583179255 {'wins': 386, 'visits': 700}
+Move: ['0', '3', '0'] Value: 0.5611297194635065 {'wins': 436, 'visits': 743}
+Move: ['0', '3', '1'] Value: 0.531601993539675 {'wins': 395, 'visits': 708}
+Move: ['1', '3', '0'] Value: 0.5090864010490178 {'wins': 366, 'visits': 683}
+Move: ['1', '3', '1'] Value: 0.5820395390462849 {'wins': 467, 'visits': 769}
+Move: ['3', '3', '0'] Value: 0.5838646601354335 {'wins': 469, 'visits': 770}
+Move: ['3', '3', '1'] Value: 0.5809826135674359 {'wins': 465, 'visits': 767}
+Move: ['4', '3', '0'] Value: 0.548400728623374 {'wins': 417, 'visits': 726}
+Move: ['4', '3', '1'] Value: 0.548400728623374 {'wins': 417, 'visits': 726}
+Move: ['0', '4', '0'] Value: 0.5594026233618519 {'wins': 433, 'visits': 740}
+Move: ['0', '4', '1'] Value: 0.5283642915832318 {'wins': 390, 'visits': 703}
+Move: ['1', '4', '0'] Value: 0.5551324919776649 {'wins': 427, 'visits': 735}
+Move: ['1', '4', '1'] Value: 0.5514009464180109 {'wins': 422, 'visits': 731}
+Move: ['2', '4', '0'] Value: 0.5236478757319885 {'wins': 384, 'visits': 698}
+Move: ['2', '4', '1'] Value: 0.5563047208348745 {'wins': 429, 'visits': 737}
+Move: ['3', '4', '0'] Value: 0.5533622281941856 {'wins': 424, 'visits': 732}
+Move: ['3', '4', '1'] Value: 0.5514009464180109 {'wins': 422, 'visits': 731}
+Move: ['4', '4', '0'] Value: 0.5342928484052621 {'wins': 398, 'visits': 710}
+Move: ['4', '4', '1'] Value: 0.5699982197548483 {'wins': 449, 'visits': 754}
+= 1
+opponent : legal 3 3 0
+yes
+= 1
+opponent : play 3 3 0
+= 1
+opponent : show
+.....
+.1...
+.....
+..00.
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+4 0 1
+= 1
+student : play 4 0 1
+= 1
+opponent : show
+....1
+.1...
+.....
+..00.
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+2 1 0
+Root board state: 
+....1
+.1...
+.....
+..00.
+.....
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[0, 1], [0, 1], [0, 0], [2, 0], [0, 0]]
+Root numOfDigitsInCol: 
+[[0, 0], [0, 1], [1, 0], [1, 0], [0, 1]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.5497271958742012 {'wins': 518, 'visits': 904}
+Move: ['0', '0', '1'] Value: 0.5643058570081693 {'wins': 545, 'visits': 928}
+Move: ['1', '0', '0'] Value: 0.525332233944747 {'wins': 475, 'visits': 865}
+Move: ['1', '0', '1'] Value: 0.5560936865058406 {'wins': 530, 'visits': 915}
+Move: ['2', '0', '0'] Value: 0.5595303790833214 {'wins': 536, 'visits': 920}
+Move: ['2', '0', '1'] Value: 0.5560936865058406 {'wins': 530, 'visits': 915}
+Move: ['3', '0', '0'] Value: 0.5609245497905215 {'wins': 539, 'visits': 923}
+Move: ['3', '0', '1'] Value: 0.5225616176818279 {'wins': 471, 'visits': 862}
+Move: ['0', '1', '0'] Value: 0.5312420552646084 {'wins': 485, 'visits': 874}
+Move: ['0', '1', '1'] Value: 0.5420849116276848 {'wins': 505, 'visits': 893}
+Move: ['2', '1', '0'] Value: 0.5913230542084645 {'wins': 599, 'visits': 976}
+Move: ['2', '1', '1'] Value: 0.5182010598657103 {'wins': 463, 'visits': 854}
+Move: ['3', '1', '0'] Value: 0.5380516783131063 {'wins': 497, 'visits': 885}
+Move: ['3', '1', '1'] Value: 0.5497271958742012 {'wins': 518, 'visits': 904}
+Move: ['4', '1', '0'] Value: 0.5400773091988461 {'wins': 501, 'visits': 889}
+Move: ['4', '1', '1'] Value: 0.546175383658742 {'wins': 512, 'visits': 899}
+Move: ['0', '2', '0'] Value: 0.538559789511747 {'wins': 498, 'visits': 886}
+Move: ['0', '2', '1'] Value: 0.5312420552646084 {'wins': 485, 'visits': 874}
+Move: ['1', '2', '0'] Value: 0.5497271958742012 {'wins': 518, 'visits': 904}
+Move: ['1', '2', '1'] Value: 0.5068451542284222 {'wins': 445, 'visits': 838}
+Move: ['2', '2', '0'] Value: 0.5074185367090056 {'wins': 446, 'visits': 839}
+Move: ['2', '2', '1'] Value: 0.5541954516115245 {'wins': 526, 'visits': 911}
+Move: ['3', '2', '0'] Value: 0.5506954925821089 {'wins': 520, 'visits': 906}
+Move: ['3', '2', '1'] Value: 0.5541954516115245 {'wins': 526, 'visits': 911}
+Move: ['4', '2', '0'] Value: 0.5390667625066858 {'wins': 499, 'visits': 887}
+Move: ['4', '2', '1'] Value: 0.5209358658374227 {'wins': 468, 'visits': 859}
+Move: ['0', '3', '0'] Value: 0.5590636464116281 {'wins': 535, 'visits': 919}
+Move: ['0', '3', '1'] Value: 0.5328050968609519 {'wins': 488, 'visits': 877}
+Move: ['1', '3', '1'] Value: 0.5551466342807958 {'wins': 528, 'visits': 913}
+Move: ['4', '3', '1'] Value: 0.527462411781154 {'wins': 479, 'visits': 869}
+Move: ['0', '4', '0'] Value: 0.5307186696634917 {'wins': 484, 'visits': 873}
+Move: ['0', '4', '1'] Value: 0.5497271958742012 {'wins': 518, 'visits': 904}
+Move: ['1', '4', '0'] Value: 0.5290473024262308 {'wins': 482, 'visits': 872}
+Move: ['1', '4', '1'] Value: 0.5062704102770786 {'wins': 444, 'visits': 837}
+Move: ['2', '4', '0'] Value: 0.5333237524532567 {'wins': 489, 'visits': 878}
+Move: ['2', '4', '1'] Value: 0.5604608275152227 {'wins': 538, 'visits': 922}
+Move: ['3', '4', '0'] Value: 0.5225616176818279 {'wins': 471, 'visits': 862}
+Move: ['3', '4', '1'] Value: 0.5153697614522436 {'wins': 459, 'visits': 851}
+Move: ['4', '4', '0'] Value: 0.5437025917865588 {'wins': 507, 'visits': 894}
+Move: ['4', '4', '1'] Value: 0.5400773091988461 {'wins': 501, 'visits': 889}
+= 1
+opponent : legal 2 1 0
+yes
+= 1
+opponent : play 2 1 0
+= 1
+opponent : show
+....1
+.10..
+.....
+..00.
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+3 1 0
+= 1
+student : play 3 1 0
+= 1
+opponent : show
+....1
+.100.
+.....
+..00.
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+3 0 0
+Root board state: 
+....1
+.100.
+.....
+..00.
+.....
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[0, 1], [2, 1], [0, 0], [2, 0], [0, 0]]
+Root numOfDigitsInCol: 
+[[0, 0], [0, 1], [2, 0], [2, 0], [0, 1]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.5701257727726259 {'wins': 655, 'visits': 1108}
+Move: ['0', '0', '1'] Value: 0.6378826489513938 {'wins': 837, 'visits': 1273}
+Move: ['1', '0', '0'] Value: 0.5701257727726259 {'wins': 655, 'visits': 1108}
+Move: ['1', '0', '1'] Value: 0.586469118017386 {'wins': 694, 'visits': 1143}
+Move: ['2', '0', '0'] Value: 0.6414081897396716 {'wins': 848, 'visits': 1283}
+Move: ['2', '0', '1'] Value: 0.6348642000464109 {'wins': 828, 'visits': 1265}
+Move: ['3', '0', '0'] Value: 0.6675458189642137 {'wins': 933, 'visits': 1359}
+Move: ['3', '0', '1'] Value: 0.5299627061561604 {'wins': 564, 'visits': 1022}
+Move: ['0', '1', '0'] Value: 0.5674596511968648 {'wins': 648, 'visits': 1101}
+Move: ['0', '1', '1'] Value: 0.5771413654953459 {'wins': 671, 'visits': 1122}
+Move: ['4', '1', '1'] Value: 0.5786064418918406 {'wins': 675, 'visits': 1126}
+Move: ['0', '2', '0'] Value: 0.6194861354322869 {'wins': 784, 'visits': 1226}
+Move: ['0', '2', '1'] Value: 0.6026404590611262 {'wins': 737, 'visits': 1183}
+Move: ['1', '2', '0'] Value: 0.6113699776424948 {'wins': 761, 'visits': 1205}
+Move: ['1', '2', '1'] Value: 0.5082120005474651 {'wins': 521, 'visits': 982}
+Move: ['2', '2', '1'] Value: 0.6170526274932174 {'wins': 776, 'visits': 1218}
+Move: ['3', '2', '1'] Value: 0.5706502920835955 {'wins': 655, 'visits': 1107}
+Move: ['4', '2', '0'] Value: 0.5740281269499228 {'wins': 664, 'visits': 1116}
+Move: ['4', '2', '1'] Value: 0.6067243231728091 {'wins': 748, 'visits': 1193}
+Move: ['0', '3', '0'] Value: 0.5767734730955428 {'wins': 670, 'visits': 1121}
+Move: ['0', '3', '1'] Value: 0.5710282998484382 {'wins': 656, 'visits': 1108}
+Move: ['1', '3', '1'] Value: 0.6451464079999637 {'wins': 860, 'visits': 1294}
+Move: ['4', '3', '1'] Value: 0.6206031036321175 {'wins': 786, 'visits': 1227}
+Move: ['0', '4', '0'] Value: 0.5984873305154635 {'wins': 726, 'visits': 1173}
+Move: ['0', '4', '1'] Value: 0.622102353665018 {'wins': 791, 'visits': 1232}
+Move: ['1', '4', '0'] Value: 0.6275508511886521 {'wins': 806, 'visits': 1245}
+Move: ['1', '4', '1'] Value: 0.5651474438804712 {'wins': 642, 'visits': 1095}
+Move: ['2', '4', '0'] Value: 0.5453798926539191 {'wins': 597, 'visits': 1053}
+Move: ['2', '4', '1'] Value: 0.6170526274932174 {'wins': 776, 'visits': 1218}
+Move: ['3', '4', '0'] Value: 0.5111760184022813 {'wins': 526, 'visits': 986}
+Move: ['3', '4', '1'] Value: 0.6076853987858638 {'wins': 751, 'visits': 1196}
+Move: ['4', '4', '0'] Value: 0.589619107770948 {'wins': 703, 'visits': 1152}
+Move: ['4', '4', '1'] Value: 0.5771413654953459 {'wins': 671, 'visits': 1122}
+= 1
+opponent : legal 3 0 0
+yes
+= 1
+opponent : play 3 0 0
+= 1
+opponent : show
+...01
+.100.
+.....
+..00.
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+1 4 0
+= 1
+student : play 1 4 0
+= 1
+opponent : show
+...01
+.100.
+.....
+..00.
+.0...
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+0 4 0
+Root board state: 
+...01
+.100.
+.....
+..00.
+.0...
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[1, 1], [2, 1], [0, 0], [2, 0], [1, 0]]
+Root numOfDigitsInCol: 
+[[0, 0], [1, 1], [2, 0], [3, 0], [0, 1]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.7159698264496515 {'wins': 1030, 'visits': 1402}
+Move: ['0', '0', '1'] Value: 0.7432717888189282 {'wins': 1136, 'visits': 1492}
+Move: ['1', '0', '0'] Value: 0.7047583780610602 {'wins': 990, 'visits': 1368}
+Move: ['1', '0', '1'] Value: 0.7780240670546562 {'wins': 1287, 'visits': 1618}
+Move: ['2', '0', '0'] Value: 0.8206279966177722 {'wins': 1506, 'visits': 1799}
+Move: ['2', '0', '1'] Value: 0.705489372213107 {'wins': 991, 'visits': 1368}
+Move: ['0', '1', '0'] Value: 0.705489372213107 {'wins': 991, 'visits': 1368}
+Move: ['0', '1', '1'] Value: 0.7076678583964837 {'wins': 999, 'visits': 1375}
+Move: ['4', '1', '1'] Value: 0.7591904688978566 {'wins': 1202, 'visits': 1547}
+Move: ['0', '2', '0'] Value: 0.7138747031141388 {'wins': 1022, 'visits': 1395}
+Move: ['0', '2', '1'] Value: 0.7805626920131666 {'wins': 1299, 'visits': 1628}
+Move: ['1', '2', '0'] Value: 0.7972713653332762 {'wins': 1381, 'visits': 1696}
+Move: ['1', '2', '1'] Value: 0.48322118663196834 {'wins': 446, 'visits': 880}
+Move: ['2', '2', '1'] Value: 0.6876208456824042 {'wins': 931, 'visits': 1317}
+Move: ['3', '2', '1'] Value: 0.7278986049800229 {'wins': 1074, 'visits': 1439}
+Move: ['4', '2', '0'] Value: 0.6980764298256098 {'wins': 966, 'visits': 1347}
+Move: ['4', '2', '1'] Value: 0.7149867399946721 {'wins': 1025, 'visits': 1397}
+Move: ['0', '3', '0'] Value: 0.7140729524576095 {'wins': 1023, 'visits': 1396}
+Move: ['0', '3', '1'] Value: 0.7140729524576095 {'wins': 1023, 'visits': 1396}
+Move: ['1', '3', '1'] Value: 0.8020872325456997 {'wins': 1407, 'visits': 1718}
+Move: ['4', '3', '1'] Value: 0.7410945264197184 {'wins': 1126, 'visits': 1483}
+Move: ['0', '4', '0'] Value: 0.8652439871324016 {'wins': 1781, 'visits': 2022}
+Move: ['0', '4', '1'] Value: 0.6761923520151681 {'wins': 894, 'visits': 1285}
+Move: ['2', '4', '0'] Value: 0.48091540180168013 {'wins': 442, 'visits': 876}
+Move: ['2', '4', '1'] Value: 0.8617388464869481 {'wins': 1760, 'visits': 2006}
+Move: ['3', '4', '1'] Value: 0.6932825806101708 {'wins': 949, 'visits': 1332}
+Move: ['4', '4', '0'] Value: 0.7966817426917667 {'wins': 1380, 'visits': 1696}
+Move: ['4', '4', '1'] Value: 0.5688880386991239 {'wins': 609, 'visits': 1031}
+= 1
+opponent : legal 0 4 0
+yes
+= 1
+opponent : play 0 4 0
+= 1
+opponent : show
+...01
+.100.
+.....
+..00.
+00...
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+0 3 0
+= 1
+student : play 0 3 0
+= 1
+opponent : show
+...01
+.100.
+.....
+0.00.
+00...
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+0 2 1
+Root board state: 
+...01
+.100.
+.....
+0.00.
+00...
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[1, 1], [2, 1], [0, 0], [3, 0], [2, 0]]
+Root numOfDigitsInCol: 
+[[2, 0], [1, 1], [2, 0], [3, 0], [0, 1]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.9068023804827127 {'wins': 2714, 'visits': 2951}
+Move: ['0', '0', '1'] Value: 0.38937265343823113 {'wins': 359, 'visits': 869}
+Move: ['1', '0', '0'] Value: 0.7797160573672555 {'wins': 1612, 'visits': 2027}
+Move: ['1', '0', '1'] Value: 0.7789796598633951 {'wins': 1605, 'visits': 2020}
+Move: ['2', '0', '0'] Value: 0.756912193085864 {'wins': 1474, 'visits': 1907}
+Move: ['2', '0', '1'] Value: 0.7507675257960238 {'wins': 1438, 'visits': 1875}
+Move: ['0', '1', '0'] Value: 0.8073657051064403 {'wins': 1796, 'visits': 2184}
+Move: ['0', '1', '1'] Value: 0.6163127025879264 {'wins': 864, 'visits': 1360}
+Move: ['4', '1', '1'] Value: 0.7566653994856098 {'wins': 1472, 'visits': 1905}
+Move: ['0', '2', '1'] Value: 0.9077128476670883 {'wins': 2724, 'visits': 2959}
+Move: ['1', '2', '0'] Value: 0.8293536440157095 {'wins': 1962, 'visits': 2325}
+Move: ['1', '2', '1'] Value: 0.4480169218948783 {'wins': 455, 'visits': 967}
+Move: ['2', '2', '1'] Value: 0.737278248501748 {'wins': 1365, 'visits': 1811}
+Move: ['3', '2', '1'] Value: 0.7754558835857657 {'wins': 1583, 'visits': 2001}
+Move: ['4', '2', '0'] Value: 0.73247199531829 {'wins': 1340, 'visits': 1789}
+Move: ['4', '2', '1'] Value: 0.8063965411887886 {'wins': 1789, 'visits': 2178}
+Move: ['1', '3', '1'] Value: 0.8238738218059501 {'wins': 1921, 'visits': 2291}
+Move: ['4', '3', '1'] Value: 0.7632528870050169 {'wins': 1510, 'visits': 1938}
+Move: ['2', '4', '1'] Value: 0.7693949259394275 {'wins': 1546, 'visits': 1969}
+Move: ['3', '4', '1'] Value: 0.733338602657359 {'wins': 1346, 'visits': 1795}
+Move: ['4', '4', '0'] Value: 0.7630165289256199 {'wins': 1508, 'visits': 1936}
+Move: ['4', '4', '1'] Value: 0.753613637195902 {'wins': 1454, 'visits': 1889}
+= 1
+opponent : legal 0 2 1
+yes
+= 1
+opponent : play 0 2 1
+= 1
+opponent : show
+...01
+.100.
+1....
+0.00.
+00...
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+2 2 1
+= 1
+student : play 2 2 1
+= 1
+opponent : show
+...01
+.100.
+1.1..
+0.00.
+00...
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+4 2 1
+Root board state: 
+...01
+.100.
+1.1..
+0.00.
+00...
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[1, 1], [2, 1], [0, 2], [3, 0], [2, 0]]
+Root numOfDigitsInCol: 
+[[2, 1], [1, 1], [2, 1], [3, 0], [0, 1]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.9855477975672317 {'wins': 2346, 'visits': 2346}
+Move: ['0', '0', '1'] Value: 0.9855477975672317 {'wins': 2346, 'visits': 2346}
+Move: ['1', '0', '0'] Value: 0.9855477975672317 {'wins': 2346, 'visits': 2346}
+Move: ['1', '0', '1'] Value: 0.8500530270277388 {'wins': 1419, 'visits': 1636}
+Move: ['2', '0', '0'] Value: 0.9855477975672317 {'wins': 2346, 'visits': 2346}
+Move: ['2', '0', '1'] Value: 0.8364808257929823 {'wins': 1352, 'visits': 1583}
+Move: ['0', '1', '0'] Value: 0.8094444522456588 {'wins': 1229, 'visits': 1485}
+Move: ['0', '1', '1'] Value: 0.9855477975672317 {'wins': 2346, 'visits': 2346}
+Move: ['4', '1', '1'] Value: 0.9411114629465811 {'wins': 1979, 'visits': 2069}
+Move: ['1', '2', '0'] Value: 0.9377103180568385 {'wins': 1954, 'visits': 2050}
+Move: ['3', '2', '1'] Value: 0.9348230470036464 {'wins': 1933, 'visits': 2034}
+Move: ['4', '2', '0'] Value: 0.9394058554382188 {'wins': 1966, 'visits': 2059}
+Move: ['4', '2', '1'] Value: inf {'wins': inf, 'visits': 2015}
+Move: ['1', '3', '1'] Value: 0.9377103180568385 {'wins': 1954, 'visits': 2050}
+Move: ['4', '3', '1'] Value: 0.9348230470036464 {'wins': 1933, 'visits': 2034}
+Move: ['2', '4', '1'] Value: 0.9405531021797591 {'wins': 1975, 'visits': 2066}
+Move: ['3', '4', '1'] Value: 0.9428007519372302 {'wins': 1992, 'visits': 2079}
+Move: ['4', '4', '0'] Value: 0.9307163389220635 {'wins': 1904, 'visits': 2012}
+Move: ['4', '4', '1'] Value: 0.95042241314469 {'wins': 2050, 'visits': 2123}
+= 1
+opponent : legal 4 2 1
+yes
+= 1
+opponent : play 4 2 1
+= 1
+opponent : show
+...01
+.100.
+1.1.1
+0.00.
+00...
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+3 4 1
+= 1
+student : play 3 4 1
+= 1
+opponent : show
+...01
+.100.
+1.1.1
+0.00.
+00.1.
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+4 4 1
+Root board state: 
+...01
+.100.
+1.1.1
+0.00.
+00.1.
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[1, 1], [2, 1], [0, 3], [3, 0], [2, 1]]
+Root numOfDigitsInCol: 
+[[2, 1], [1, 1], [2, 1], [3, 1], [0, 2]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.9390728204155058 {'wins': 132, 'visits': 132}
+Move: ['0', '0', '1'] Value: 0.9390728204155058 {'wins': 132, 'visits': 132}
+Move: ['1', '0', '0'] Value: 0.9390728204155058 {'wins': 132, 'visits': 132}
+Move: ['1', '0', '1'] Value: 0.8555823125651496 {'wins': 113, 'visits': 123}
+Move: ['2', '0', '0'] Value: 0.9390728204155058 {'wins': 132, 'visits': 132}
+Move: ['2', '0', '1'] Value: 0.7695072721188302 {'wins': 96, 'visits': 115}
+Move: ['0', '1', '0'] Value: 0.8371900826446281 {'wins': 109, 'visits': 121}
+Move: ['0', '1', '1'] Value: 0.9390728204155058 {'wins': 132, 'visits': 132}
+Move: ['1', '2', '0'] Value: 0.8985149656007145 {'wins': 122, 'visits': 127}
+Move: ['1', '3', '1'] Value: 0.873390096630006 {'wins': 117, 'visits': 125}
+Move: ['4', '3', '1'] Value: 0.9068781566461771 {'wins': 124, 'visits': 128}
+Move: ['2', '4', '1'] Value: 0.890640949852683 {'wins': 121, 'visits': 127}
+Move: ['4', '4', '0'] Value: 0.8985149656007145 {'wins': 122, 'visits': 127}
+Move: ['4', '4', '1'] Value: inf {'wins': inf, 'visits': 127}
+= 1
+opponent : legal 4 4 1
+yes
+= 1
+opponent : play 4 4 1
+= 1
+opponent : show
+...01
+.100.
+1.1.1
+0.00.
+00.11
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+2 0 1
+= 1
+student : play 2 0 1
+= 1
+opponent : show
+..101
+.100.
+1.1.1
+0.00.
+00.11
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+0 0 0
+Root board state: 
+..101
+.100.
+1.1.1
+0.00.
+00.11
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[1, 2], [2, 1], [0, 3], [3, 0], [2, 2]]
+Root numOfDigitsInCol: 
+[[2, 1], [1, 1], [2, 2], [3, 1], [0, 3]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: inf {'wins': inf, 'visits': 13}
+Move: ['0', '0', '1'] Value: 0.797927405783631 {'wins': 12, 'visits': 12}
+Move: ['1', '0', '0'] Value: 0.797927405783631 {'wins': 12, 'visits': 12}
+Move: ['1', '0', '1'] Value: 0.547927405783631 {'wins': 9, 'visits': 12}
+Move: ['0', '1', '0'] Value: 0.547927405783631 {'wins': 9, 'visits': 12}
+Move: ['0', '1', '1'] Value: 0.8058549313211698 {'wins': 13, 'visits': 13}
+Move: ['1', '2', '0'] Value: 0.7145940724502976 {'wins': 11, 'visits': 12}
+Move: ['1', '3', '1'] Value: 0.797927405783631 {'wins': 12, 'visits': 12}
+= 1
+opponent : legal 0 0 0
+yes
+= 1
+opponent : play 0 0 0
+= 1
+opponent : show
+0.101
+.100.
+1.1.1
+0.00.
+00.11
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+1 2 0
+= 1
+student : play 1 2 0
+= 1
+opponent : show
+0.101
+.100.
+101.1
+0.00.
+00.11
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+1 0 0
+Root board state: 
+0.101
+.100.
+101.1
+0.00.
+00.11
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[2, 2], [2, 1], [1, 3], [3, 0], [2, 2]]
+Root numOfDigitsInCol: 
+[[3, 1], [2, 1], [2, 2], [3, 1], [0, 3]] 
+Moves detail: 
+Move: ['1', '0', '0'] Value: inf {'wins': inf, 'visits': 4}
+Move: ['1', '0', '1'] Value: 0.5958548115672619 {'wins': 3, 'visits': 3}
+Move: ['0', '1', '1'] Value: 0.65 {'wins': 4, 'visits': 4}
+Move: ['1', '3', '1'] Value: 0.5958548115672619 {'wins': 3, 'visits': 3}
+= 1
+opponent : legal 1 0 0
+yes
+= 1
+opponent : play 1 0 0
+= 1
+opponent : show
+00101
+.100.
+101.1
+0.00.
+00.11
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+1 3 1
+= 1
+student : play 1 3 1
+= 1
+opponent : show
+00101
+.100.
+101.1
+0100.
+00.11
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+0 1 1
+Root board state: 
+00101
+.100.
+101.1
+0100.
+00.11
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[3, 2], [2, 1], [1, 3], [3, 1], [2, 2]]
+Root numOfDigitsInCol: 
+[[3, 1], [3, 2], [2, 2], [3, 1], [0, 3]] 
+Moves detail: 
+Move: ['0', '1', '1'] Value: inf {'wins': inf, 'visits': 2}
+= 1
+opponent : legal 0 1 1
+yes
+= 1
+opponent : play 0 1 1
+= 1
+opponent : show
+00101
+1100.
+101.1
+0100.
+00.11
+= 1
+opponent : winner
+1
+= 1
+The student program wins!
+
+Test 6 / 12 (50%)Set student's program as the second player.
+Test 7 / 12 (58%)student : game 5 5
+= 1
+opponent : game 5 5
+= 1
+student : timelimit 30
+= 1
+opponent : timelimit 30
+= 1
+Begin game:
+
+Opponent program to play:
+opponent : genmove
+4 1 1
+= 1
+student : play 4 1 1
+= 1
+opponent : show
+.....
+....1
+.....
+.....
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+3 0 0
+Root board state: 
+.....
+....1
+.....
+.....
+.....
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[0, 0], [0, 1], [0, 0], [0, 0], [0, 0]]
+Root numOfDigitsInCol: 
+[[0, 0], [0, 0], [0, 0], [0, 0], [0, 1]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.3905504153350639 {'wins': 281, 'visits': 673}
+Move: ['0', '0', '1'] Value: 0.40159740414784967 {'wins': 293, 'visits': 684}
+Move: ['1', '0', '0'] Value: 0.3966856371550479 {'wins': 288, 'visits': 680}
+Move: ['1', '0', '1'] Value: 0.40584300921949296 {'wins': 298, 'visits': 689}
+Move: ['2', '0', '0'] Value: 0.37603895302105506 {'wins': 265, 'visits': 657}
+Move: ['2', '0', '1'] Value: 0.3887741171597853 {'wins': 279, 'visits': 671}
+Move: ['3', '0', '0'] Value: 0.43745092851728173 {'wins': 336, 'visits': 725}
+Move: ['3', '0', '1'] Value: 0.4007408666419901 {'wins': 292, 'visits': 683}
+Move: ['4', '0', '0'] Value: 0.3914346335607626 {'wins': 282, 'visits': 674}
+Move: ['4', '0', '1'] Value: 0.40584300921949296 {'wins': 298, 'visits': 689}
+Move: ['0', '1', '0'] Value: 0.4166001455565691 {'wins': 311, 'visits': 702}
+Move: ['0', '1', '1'] Value: 0.4066847887663925 {'wins': 299, 'visits': 690}
+Move: ['1', '1', '0'] Value: 0.38608983955591597 {'wins': 276, 'visits': 668}
+Move: ['1', '1', '1'] Value: 0.4182200300767184 {'wins': 313, 'visits': 704}
+Move: ['2', '1', '0'] Value: 0.3887741171597853 {'wins': 279, 'visits': 671}
+Move: ['2', '1', '1'] Value: 0.43147437726160126 {'wins': 329, 'visits': 719}
+Move: ['3', '1', '0'] Value: 0.41168495927933607 {'wins': 305, 'visits': 696}
+Move: ['3', '1', '1'] Value: 0.4100277870010846 {'wins': 303, 'visits': 694}
+Move: ['0', '2', '0'] Value: 0.3914346335607626 {'wins': 282, 'visits': 674}
+Move: ['0', '2', '1'] Value: 0.40013541584375606 {'wins': 292, 'visits': 684}
+Move: ['1', '2', '0'] Value: 0.37076921091140447 {'wins': 260, 'visits': 653}
+Move: ['1', '2', '1'] Value: 0.40159740414784967 {'wins': 293, 'visits': 684}
+Move: ['2', '2', '0'] Value: 0.36601992147237505 {'wins': 255, 'visits': 648}
+Move: ['2', '2', '1'] Value: 0.39407170374629136 {'wins': 285, 'visits': 677}
+Move: ['3', '2', '0'] Value: 0.3949455705120824 {'wins': 286, 'visits': 678}
+Move: ['3', '2', '1'] Value: 0.3833814800879418 {'wins': 273, 'visits': 665}
+Move: ['4', '2', '0'] Value: 0.3650613040513637 {'wins': 254, 'visits': 647}
+Move: ['4', '2', '1'] Value: 0.4049987967034221 {'wins': 297, 'visits': 688}
+Move: ['0', '3', '0'] Value: 0.3905504153350639 {'wins': 281, 'visits': 673}
+Move: ['0', '3', '1'] Value: 0.3717104027621373 {'wins': 261, 'visits': 654}
+Move: ['1', '3', '0'] Value: 0.39755185948461114 {'wins': 289, 'visits': 681}
+Move: ['1', '3', '1'] Value: 0.38518974483028046 {'wins': 275, 'visits': 667}
+Move: ['2', '3', '0'] Value: 0.4066847887663925 {'wins': 299, 'visits': 690}
+Move: ['2', '3', '1'] Value: 0.3896635804233006 {'wins': 280, 'visits': 672}
+Move: ['3', '3', '0'] Value: 0.3869872585666239 {'wins': 277, 'visits': 669}
+Move: ['3', '3', '1'] Value: 0.37603895302105506 {'wins': 265, 'visits': 657}
+Move: ['4', '3', '0'] Value: 0.4149710583179255 {'wins': 309, 'visits': 700}
+Move: ['4', '3', '1'] Value: 0.3806487122924833 {'wins': 270, 'visits': 662}
+Move: ['0', '4', '0'] Value: 0.3887741171597853 {'wins': 279, 'visits': 671}
+Move: ['0', '4', '1'] Value: 0.42836693882521776 {'wins': 325, 'visits': 715}
+Move: ['1', '4', '0'] Value: 0.37451688300583436 {'wins': 264, 'visits': 657}
+Move: ['1', '4', '1'] Value: 0.34627078069968414 {'wins': 235, 'visits': 628}
+Move: ['2', '4', '0'] Value: 0.3869872585666239 {'wins': 277, 'visits': 669}
+Move: ['2', '4', '1'] Value: 0.4075241458765081 {'wins': 300, 'visits': 691}
+Move: ['3', '4', '0'] Value: 0.38608983955591597 {'wins': 276, 'visits': 668}
+Move: ['3', '4', '1'] Value: 0.3788131430149528 {'wins': 268, 'visits': 660}
+Move: ['4', '4', '0'] Value: 0.3824732858171458 {'wins': 272, 'visits': 664}
+Move: ['4', '4', '1'] Value: 0.4212472204563442 {'wins': 316, 'visits': 706}
+= 1
+opponent : legal 3 0 0
+yes
+= 1
+opponent : play 3 0 0
+= 1
+opponent : show
+...0.
+....1
+.....
+.....
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+0 4 0
+= 1
+student : play 0 4 0
+= 1
+opponent : show
+...0.
+....1
+.....
+.....
+0....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+1 3 1
+Root board state: 
+...0.
+....1
+.....
+.....
+0....
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[1, 0], [0, 1], [0, 0], [0, 0], [1, 0]]
+Root numOfDigitsInCol: 
+[[1, 0], [0, 0], [0, 0], [1, 0], [0, 1]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.4033347495288777 {'wins': 325, 'visits': 758}
+Move: ['0', '0', '1'] Value: 0.4017899233878115 {'wins': 323, 'visits': 756}
+Move: ['1', '0', '0'] Value: 0.41392561970825165 {'wins': 339, 'visits': 772}
+Move: ['1', '0', '1'] Value: 0.4176160826117466 {'wins': 344, 'visits': 777}
+Move: ['2', '0', '0'] Value: 0.4079209621131946 {'wins': 331, 'visits': 764}
+Move: ['2', '0', '1'] Value: 0.39314593061806896 {'wins': 312, 'visits': 745}
+Move: ['4', '0', '0'] Value: 0.39631841781473215 {'wins': 316, 'visits': 749}
+Move: ['4', '0', '1'] Value: 0.40023694654529923 {'wins': 321, 'visits': 754}
+Move: ['0', '1', '0'] Value: 0.40410412616661623 {'wins': 326, 'visits': 759}
+Move: ['0', '1', '1'] Value: 0.37369009471141323 {'wins': 289, 'visits': 723}
+Move: ['1', '1', '0'] Value: 0.39020105189957655 {'wins': 309, 'visits': 743}
+Move: ['1', '1', '1'] Value: 0.39710628064975895 {'wins': 317, 'visits': 750}
+Move: ['2', '1', '0'] Value: 0.40410412616661623 {'wins': 326, 'visits': 759}
+Move: ['2', '1', '1'] Value: 0.38534135584165874 {'wins': 303, 'visits': 737}
+Move: ['3', '1', '0'] Value: 0.3861567631570616 {'wins': 304, 'visits': 738}
+Move: ['3', '1', '1'] Value: 0.4183485141987482 {'wins': 345, 'visits': 778}
+Move: ['0', '2', '0'] Value: 0.39020105189957655 {'wins': 309, 'visits': 743}
+Move: ['0', '2', '1'] Value: 0.42414124163304495 {'wins': 353, 'visits': 786}
+Move: ['1', '2', '0'] Value: 0.4116884337146855 {'wins': 336, 'visits': 769}
+Move: ['1', '2', '1'] Value: 0.41907907569738895 {'wins': 346, 'visits': 779}
+Move: ['2', '2', '0'] Value: 0.3869699754983823 {'wins': 305, 'visits': 739}
+Move: ['2', '2', '1'] Value: 0.4176160826117466 {'wins': 344, 'visits': 777}
+Move: ['3', '2', '0'] Value: 0.4116884337146855 {'wins': 336, 'visits': 769}
+Move: ['3', '2', '1'] Value: 0.37957128969787834 {'wins': 296, 'visits': 730}
+Move: ['4', '2', '0'] Value: 0.36246186248976914 {'wins': 276, 'visits': 710}
+Move: ['4', '2', '1'] Value: 0.4366287741123332 {'wins': 370, 'visits': 802}
+Move: ['0', '3', '0'] Value: 0.4205346170838989 {'wins': 348, 'visits': 781}
+Move: ['0', '3', '1'] Value: 0.38205759765490693 {'wins': 299, 'visits': 733}
+Move: ['1', '3', '0'] Value: 0.4071615750410139 {'wins': 330, 'visits': 763}
+Move: ['1', '3', '1'] Value: 0.4373149710567539 {'wins': 371, 'visits': 803}
+Move: ['2', '3', '0'] Value: 0.40410412616661623 {'wins': 326, 'visits': 759}
+Move: ['2', '3', '1'] Value: 0.4079209621131946 {'wins': 331, 'visits': 764}
+Move: ['3', '3', '0'] Value: 0.4071615750410139 {'wins': 330, 'visits': 763}
+Move: ['3', '3', '1'] Value: 0.40410412616661623 {'wins': 326, 'visits': 759}
+Move: ['4', '3', '0'] Value: 0.38452374462941474 {'wins': 302, 'visits': 736}
+Move: ['4', '3', '1'] Value: 0.3719888901318494 {'wins': 287, 'visits': 721}
+Move: ['1', '4', '0'] Value: 0.4071615750410139 {'wins': 330, 'visits': 763}
+Move: ['1', '4', '1'] Value: 0.38534135584165874 {'wins': 303, 'visits': 737}
+Move: ['2', '4', '0'] Value: 0.37957128969787834 {'wins': 296, 'visits': 730}
+Move: ['2', '4', '1'] Value: 0.37284066429423524 {'wins': 288, 'visits': 722}
+Move: ['3', '4', '0'] Value: 0.4033347495288777 {'wins': 325, 'visits': 758}
+Move: ['3', '4', '1'] Value: 0.3779024277630153 {'wins': 294, 'visits': 728}
+Move: ['4', '4', '0'] Value: 0.39260174209484355 {'wins': 312, 'visits': 746}
+Move: ['4', '4', '1'] Value: 0.42840941137467375 {'wins': 359, 'visits': 792}
+= 1
+opponent : legal 1 3 1
+yes
+= 1
+opponent : play 1 3 1
+= 1
+opponent : show
+...0.
+....1
+.....
+.1...
+0....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+2 4 0
+= 1
+student : play 2 4 0
+= 1
+opponent : show
+...0.
+....1
+.....
+.1...
+0.0..
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+1 2 1
+Root board state: 
+...0.
+....1
+.....
+.1...
+0.0..
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[1, 0], [0, 1], [0, 0], [0, 1], [2, 0]]
+Root numOfDigitsInCol: 
+[[1, 0], [0, 1], [1, 0], [1, 0], [0, 1]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.43818726058771035 {'wins': 441, 'visits': 957}
+Move: ['0', '0', '1'] Value: 0.4133887275262983 {'wins': 399, 'visits': 914}
+Move: ['1', '0', '0'] Value: 0.41401718377360014 {'wins': 400, 'visits': 915}
+Move: ['1', '0', '1'] Value: 0.43296125944548847 {'wins': 432, 'visits': 948}
+Move: ['2', '0', '0'] Value: 0.4057391126554837 {'wins': 387, 'visits': 902}
+Move: ['2', '0', '1'] Value: 0.42449563033104803 {'wins': 417, 'visits': 932}
+Move: ['4', '0', '0'] Value: 0.41401718377360014 {'wins': 400, 'visits': 915}
+Move: ['4', '0', '1'] Value: 0.4127589015316174 {'wins': 398, 'visits': 913}
+Move: ['0', '1', '0'] Value: 0.43645616006700977 {'wins': 438, 'visits': 954}
+Move: ['0', '1', '1'] Value: 0.3983450257342792 {'wins': 375, 'visits': 889}
+Move: ['1', '1', '0'] Value: 0.42882783601461305 {'wins': 425, 'visits': 941}
+Move: ['1', '1', '1'] Value: 0.43060677108683043 {'wins': 428, 'visits': 944}
+Move: ['2', '1', '0'] Value: 0.40831138662184396 {'wins': 391, 'visits': 906}
+Move: ['2', '1', '1'] Value: 0.3803252484883047 {'wins': 348, 'visits': 861}
+Move: ['3', '1', '0'] Value: 0.414644274748264 {'wins': 401, 'visits': 916}
+Move: ['3', '1', '1'] Value: 0.4016444262384603 {'wins': 380, 'visits': 894}
+Move: ['0', '2', '0'] Value: 0.43119725226612154 {'wins': 429, 'visits': 945}
+Move: ['0', '2', '1'] Value: 0.4347141939819632 {'wins': 435, 'visits': 951}
+Move: ['1', '2', '0'] Value: 0.40895092780052283 {'wins': 392, 'visits': 907}
+Move: ['1', '2', '1'] Value: 0.4706752151359462 {'wins': 501, 'visits': 1017}
+Move: ['2', '2', '0'] Value: 0.42084106514407765 {'wins': 411, 'visits': 926}
+Move: ['2', '2', '1'] Value: 0.4183783980141382 {'wins': 407, 'visits': 922}
+Move: ['3', '2', '0'] Value: 0.4202273850204932 {'wins': 410, 'visits': 925}
+Move: ['3', '2', '1'] Value: 0.44500502024480626 {'wins': 453, 'visits': 969}
+Move: ['4', '2', '0'] Value: 0.4370343958151755 {'wins': 439, 'visits': 955}
+Move: ['4', '2', '1'] Value: 0.42449563033104803 {'wins': 417, 'visits': 932}
+Move: ['0', '3', '0'] Value: 0.41022580989620033 {'wins': 394, 'visits': 909}
+Move: ['0', '3', '1'] Value: 0.42328265488734657 {'wins': 415, 'visits': 930}
+Move: ['2', '3', '0'] Value: 0.41022580989620033 {'wins': 394, 'visits': 909}
+Move: ['2', '3', '1'] Value: 0.39163418212454715 {'wins': 365, 'visits': 879}
+Move: ['3', '3', '0'] Value: 0.43413110630485113 {'wins': 434, 'visits': 950}
+Move: ['3', '3', '1'] Value: 0.39567879695717406 {'wins': 371, 'visits': 885}
+Move: ['4', '3', '0'] Value: 0.41022580989620033 {'wins': 394, 'visits': 909}
+Move: ['4', '3', '1'] Value: 0.3983450257342792 {'wins': 375, 'visits': 889}
+Move: ['1', '4', '1'] Value: 0.42145342795394425 {'wins': 412, 'visits': 927}
+Move: ['3', '4', '0'] Value: 0.42870055929237233 {'wins': 424, 'visits': 939}
+Move: ['3', '4', '1'] Value: 0.43818726058771035 {'wins': 441, 'visits': 957}
+Move: ['4', '4', '0'] Value: 0.4108611600213212 {'wins': 395, 'visits': 910}
+Move: ['4', '4', '1'] Value: 0.40831138662184396 {'wins': 391, 'visits': 906}
+= 1
+opponent : legal 1 2 1
+yes
+= 1
+opponent : play 1 2 1
+= 1
+opponent : show
+...0.
+....1
+.1...
+.1...
+0.0..
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+4 4 1
+= 1
+student : play 4 4 1
+= 1
+opponent : show
+...0.
+....1
+.1...
+.1...
+0.0.1
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+4 0 0
+Root board state: 
+...0.
+....1
+.1...
+.1...
+0.0.1
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[1, 0], [0, 1], [0, 1], [0, 1], [2, 1]]
+Root numOfDigitsInCol: 
+[[1, 0], [0, 2], [1, 0], [1, 0], [0, 2]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.4832927243223982 {'wins': 619, 'visits': 1230}
+Move: ['0', '0', '1'] Value: 0.43494364676191877 {'wins': 507, 'visits': 1112}
+Move: ['1', '0', '0'] Value: 0.46352051724386034 {'wins': 571, 'visits': 1180}
+Move: ['1', '0', '1'] Value: 0.45346020761245676 {'wins': 548, 'visits': 1156}
+Move: ['2', '0', '0'] Value: 0.3846981041538268 {'wins': 410, 'visits': 1008}
+Move: ['2', '0', '1'] Value: 0.47145940724502977 {'wins': 590, 'visits': 1200}
+Move: ['4', '0', '0'] Value: 0.5141747362674668 {'wins': 701, 'visits': 1314}
+Move: ['4', '0', '1'] Value: 0.46574119808499415 {'wins': 576, 'visits': 1185}
+Move: ['0', '1', '0'] Value: 0.4644110331533507 {'wins': 573, 'visits': 1182}
+Move: ['0', '1', '1'] Value: 0.43997484300717415 {'wins': 518, 'visits': 1124}
+Move: ['1', '1', '0'] Value: 0.43702544284774536 {'wins': 512, 'visits': 1118}
+Move: ['2', '1', '0'] Value: 0.4562291869460559 {'wins': 554, 'visits': 1162}
+Move: ['2', '1', '1'] Value: 0.43948545457510024 {'wins': 517, 'visits': 1123}
+Move: ['3', '1', '0'] Value: 0.47954066747322843 {'wins': 609, 'visits': 1219}
+Move: ['3', '1', '1'] Value: 0.46794330786981136 {'wins': 581, 'visits': 1190}
+Move: ['0', '2', '0'] Value: 0.43702544284774536 {'wins': 512, 'visits': 1118}
+Move: ['0', '2', '1'] Value: 0.49924089913508035 {'wins': 660, 'visits': 1272}
+Move: ['2', '2', '0'] Value: 0.43344350213932786 {'wins': 504, 'visits': 1109}
+Move: ['2', '2', '1'] Value: 0.47318181710792656 {'wins': 594, 'visits': 1204}
+Move: ['3', '2', '0'] Value: 0.4933879000657484 {'wins': 644, 'visits': 1255}
+Move: ['3', '2', '1'] Value: 0.45246632999317016 {'wins': 545, 'visits': 1152}
+Move: ['4', '2', '0'] Value: 0.5007799376651345 {'wins': 664, 'visits': 1276}
+Move: ['4', '2', '1'] Value: 0.4787018332296489 {'wins': 607, 'visits': 1217}
+Move: ['0', '3', '0'] Value: 0.4458576635230174 {'wins': 531, 'visits': 1138}
+Move: ['0', '3', '1'] Value: 0.4906018185691362 {'wins': 637, 'visits': 1248}
+Move: ['2', '3', '0'] Value: 0.4736106415429098 {'wins': 595, 'visits': 1205}
+Move: ['2', '3', '1'] Value: 0.4548482637249621 {'wins': 551, 'visits': 1159}
+Move: ['3', '3', '0'] Value: 0.4598771932247163 {'wins': 562, 'visits': 1170}
+Move: ['3', '3', '1'] Value: 0.4566879191169631 {'wins': 555, 'visits': 1163}
+Move: ['4', '3', '0'] Value: 0.4849353036480143 {'wins': 623, 'visits': 1234}
+Move: ['4', '3', '1'] Value: 0.43394444707338675 {'wins': 505, 'visits': 1110}
+Move: ['3', '4', '0'] Value: 0.49140101012677667 {'wins': 639, 'visits': 1250}
+Move: ['3', '4', '1'] Value: 0.45760303224701593 {'wins': 557, 'visits': 1165}
+= 1
+opponent : legal 4 0 0
+yes
+= 1
+opponent : play 4 0 0
+= 1
+opponent : show
+...00
+....1
+.1...
+.1...
+0.0.1
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+2 3 0
+= 1
+student : play 2 3 0
+= 1
+opponent : show
+...00
+....1
+.1...
+.10..
+0.0.1
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+0 3 1
+Root board state: 
+...00
+....1
+.1...
+.10..
+0.0.1
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[2, 0], [0, 1], [0, 1], [1, 1], [2, 1]]
+Root numOfDigitsInCol: 
+[[1, 0], [0, 2], [2, 0], [1, 0], [1, 2]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.4909263768213443 {'wins': 747, 'visits': 1467}
+Move: ['0', '0', '1'] Value: 0.520811986763463 {'wins': 847, 'visits': 1573}
+Move: ['1', '0', '0'] Value: 0.5749359454782502 {'wins': 1064, 'visits': 1799}
+Move: ['1', '0', '1'] Value: 0.4602629656683711 {'wins': 656, 'visits': 1369}
+Move: ['2', '0', '1'] Value: 0.51628366104083 {'wins': 832, 'visits': 1558}
+Move: ['0', '1', '0'] Value: 0.5199132115550175 {'wins': 844, 'visits': 1570}
+Move: ['0', '1', '1'] Value: 0.451487062485084 {'wins': 632, 'visits': 1343}
+Move: ['1', '1', '0'] Value: 0.5205127744006115 {'wins': 846, 'visits': 1572}
+Move: ['2', '1', '0'] Value: 0.5295201100473189 {'wins': 879, 'visits': 1607}
+Move: ['2', '1', '1'] Value: 0.519011011118031 {'wins': 841, 'visits': 1567}
+Move: ['3', '1', '0'] Value: 0.47757844654996207 {'wins': 706, 'visits': 1423}
+Move: ['3', '1', '1'] Value: 0.5237423085600302 {'wins': 858, 'visits': 1585}
+Move: ['0', '2', '0'] Value: 0.5726966726676063 {'wins': 1053, 'visits': 1787}
+Move: ['0', '2', '1'] Value: 0.5292325959692905 {'wins': 878, 'visits': 1606}
+Move: ['2', '2', '1'] Value: 0.4694606125787809 {'wins': 682, 'visits': 1397}
+Move: ['3', '2', '0'] Value: 0.5572112400245391 {'wins': 988, 'visits': 1721}
+Move: ['3', '2', '1'] Value: 0.46452772618406835 {'wins': 668, 'visits': 1382}
+Move: ['4', '2', '0'] Value: 0.49397067936303285 {'wins': 757, 'visits': 1478}
+Move: ['4', '2', '1'] Value: 0.5378692987564042 {'wins': 911, 'visits': 1641}
+Move: ['0', '3', '0'] Value: 0.3581275310461244 {'wins': 419, 'visits': 1105}
+Move: ['0', '3', '1'] Value: 0.6118543875758721 {'wins': 1242, 'visits': 1979}
+Move: ['3', '3', '0'] Value: 0.5120053077285989 {'wins': 817, 'visits': 1542}
+Move: ['3', '3', '1'] Value: 0.5178027150600901 {'wins': 837, 'visits': 1563}
+Move: ['4', '3', '0'] Value: 0.5513987238238423 {'wins': 964, 'visits': 1696}
+Move: ['4', '3', '1'] Value: 0.43545896657863015 {'wins': 590, 'visits': 1297}
+Move: ['3', '4', '0'] Value: 0.4966382915787767 {'wins': 766, 'visits': 1488}
+Move: ['3', '4', '1'] Value: 0.5300940711198358 {'wins': 881, 'visits': 1609}
+= 1
+opponent : legal 0 3 1
+yes
+= 1
+opponent : play 0 3 1
+= 1
+opponent : show
+...00
+....1
+.1...
+110..
+0.0.1
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+3 3 0
+= 1
+student : play 3 3 0
+= 1
+opponent : show
+...00
+....1
+.1...
+1100.
+0.0.1
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+3 2 0
+Root board state: 
+...00
+....1
+.1...
+1100.
+0.0.1
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[2, 0], [0, 1], [0, 1], [2, 2], [2, 1]]
+Root numOfDigitsInCol: 
+[[1, 1], [0, 2], [2, 0], [2, 0], [1, 2]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.5406843829115443 {'wins': 1139, 'visits': 2048}
+Move: ['0', '0', '1'] Value: 0.5023796646836127 {'wins': 959, 'visits': 1849}
+Move: ['1', '0', '0'] Value: 0.5284422522372665 {'wins': 1078, 'visits': 1981}
+Move: ['1', '0', '1'] Value: 0.49730985494692764 {'wins': 938, 'visits': 1826}
+Move: ['2', '0', '1'] Value: 0.5047230780802642 {'wins': 970, 'visits': 1862}
+Move: ['0', '1', '0'] Value: 0.5314260365404989 {'wins': 1092, 'visits': 1996}
+Move: ['0', '1', '1'] Value: 0.49016048287727493 {'wins': 908, 'visits': 1792}
+Move: ['1', '1', '0'] Value: 0.5242889142029471 {'wins': 1057, 'visits': 1957}
+Move: ['2', '1', '0'] Value: 0.558996608582101 {'wins': 1236, 'visits': 2153}
+Move: ['2', '1', '1'] Value: 0.4777350993794792 {'wins': 859, 'visits': 1737}
+Move: ['3', '1', '0'] Value: 0.4440919746200877 {'wins': 739, 'visits': 1601}
+Move: ['3', '1', '1'] Value: 0.5632511096615169 {'wins': 1260, 'visits': 2179}
+Move: ['0', '2', '0'] Value: 0.4759358750486938 {'wins': 852, 'visits': 1729}
+Move: ['0', '2', '1'] Value: 0.6085860664481503 {'wins': 1546, 'visits': 2483}
+Move: ['2', '2', '1'] Value: 0.5354581226841909 {'wins': 1112, 'visits': 2018}
+Move: ['3', '2', '0'] Value: 0.6173631480691172 {'wins': 1609, 'visits': 2549}
+Move: ['3', '2', '1'] Value: 0.48245690519288514 {'wins': 878, 'visits': 1759}
+Move: ['4', '2', '0'] Value: 0.5751326924093847 {'wins': 1329, 'visits': 2253}
+Move: ['4', '2', '1'] Value: 0.3895858993909354 {'wins': 576, 'visits': 1411}
+Move: ['4', '3', '1'] Value: 0.5922871664746614 {'wins': 1436, 'visits': 2367}
+Move: ['3', '4', '0'] Value: 0.5458120423411826 {'wins': 1165, 'visits': 2076}
+Move: ['3', '4', '1'] Value: 0.490999596131376 {'wins': 912, 'visits': 1797}
+= 1
+opponent : legal 3 2 0
+yes
+= 1
+opponent : play 3 2 0
+= 1
+opponent : show
+...00
+....1
+.1.0.
+1100.
+0.0.1
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+2 1 0
+= 1
+student : play 2 1 0
+= 1
+opponent : show
+...00
+..0.1
+.1.0.
+1100.
+0.0.1
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+4 3 1
+Root board state: 
+...00
+..0.1
+.1.0.
+1100.
+0.0.1
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[2, 0], [1, 1], [1, 1], [2, 2], [2, 1]]
+Root numOfDigitsInCol: 
+[[1, 1], [0, 2], [3, 0], [3, 0], [1, 2]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: -inf {'wins': -inf, 'visits': 532}
+Move: ['0', '0', '1'] Value: 0.5110052795421927 {'wins': 350, 'visits': 650}
+Move: ['1', '0', '0'] Value: -inf {'wins': -inf, 'visits': 536}
+Move: ['1', '0', '1'] Value: 0.5705564356760658 {'wins': 429, 'visits': 719}
+Move: ['2', '0', '1'] Value: -inf {'wins': -inf, 'visits': 520}
+Move: ['0', '1', '0'] Value: -inf {'wins': -inf, 'visits': 612}
+Move: ['0', '1', '1'] Value: -inf {'wins': -inf, 'visits': 592}
+Move: ['1', '1', '0'] Value: -inf {'wins': -inf, 'visits': 563}
+Move: ['3', '1', '1'] Value: -inf {'wins': -inf, 'visits': 525}
+Move: ['0', '2', '0'] Value: -inf {'wins': -inf, 'visits': 529}
+Move: ['0', '2', '1'] Value: -inf {'wins': -inf, 'visits': 395}
+Move: ['2', '2', '1'] Value: -inf {'wins': -inf, 'visits': 553}
+Move: ['4', '2', '0'] Value: 0.7892565967961523 {'wins': 885, 'visits': 1092}
+Move: ['4', '2', '1'] Value: -inf {'wins': -inf, 'visits': 240}
+Move: ['4', '3', '1'] Value: inf {'wins': inf, 'visits': 1069}
+Move: ['3', '4', '1'] Value: -inf {'wins': -inf, 'visits': 532}
+= 1
+opponent : legal 4 3 1
+yes
+= 1
+opponent : play 4 3 1
+= 1
+opponent : show
+...00
+..0.1
+.1.0.
+11001
+0.0.1
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+1 1 0
+= 1
+student : play 1 1 0
+= 1
+opponent : show
+...00
+.00.1
+.1.0.
+11001
+0.0.1
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+0 2 1
+Root board state: 
+...00
+.00.1
+.1.0.
+11001
+0.0.1
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[2, 0], [2, 1], [1, 1], [2, 3], [2, 1]]
+Root numOfDigitsInCol: 
+[[1, 1], [1, 2], [3, 0], [3, 0], [1, 3]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.9281815153540393 {'wins': 95, 'visits': 95}
+Move: ['0', '0', '1'] Value: 0.4943900726588246 {'wins': 41, 'visits': 71}
+Move: ['1', '0', '0'] Value: 0.9281815153540393 {'wins': 95, 'visits': 95}
+Move: ['1', '0', '1'] Value: 0.6717376207875074 {'wins': 60, 'visits': 80}
+Move: ['2', '0', '1'] Value: 0.9281815153540393 {'wins': 95, 'visits': 95}
+Move: ['0', '1', '1'] Value: 0.7331475479412122 {'wins': 68, 'visits': 84}
+Move: ['3', '1', '1'] Value: 0.798515340952159 {'wins': 76, 'visits': 87}
+Move: ['0', '2', '0'] Value: 0.8359125079501166 {'wins': 81, 'visits': 89}
+Move: ['0', '2', '1'] Value: inf {'wins': inf, 'visits': 81}
+Move: ['2', '2', '1'] Value: 0.823107022002809 {'wins': 79, 'visits': 88}
+Move: ['4', '2', '0'] Value: 0.745052309845974 {'wins': 69, 'visits': 84}
+Move: ['3', '4', '1'] Value: 0.798515340952159 {'wins': 76, 'visits': 87}
+= 1
+opponent : legal 0 2 1
+yes
+= 1
+opponent : play 0 2 1
+= 1
+opponent : show
+...00
+.00.1
+11.0.
+11001
+0.0.1
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+4 2 0
+= 1
+student : play 4 2 0
+= 1
+opponent : show
+...00
+.00.1
+11.00
+11001
+0.0.1
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+1 0 0
+Root board state: 
+...00
+.00.1
+11.00
+11001
+0.0.1
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[2, 0], [2, 1], [2, 2], [2, 3], [2, 1]]
+Root numOfDigitsInCol: 
+[[1, 2], [1, 2], [3, 0], [3, 0], [2, 3]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.797927405783631 {'wins': 12, 'visits': 12}
+Move: ['0', '0', '1'] Value: 0.27864056378821345 {'wins': 5, 'visits': 10}
+Move: ['1', '0', '0'] Value: inf {'wins': inf, 'visits': 12}
+Move: ['1', '0', '1'] Value: -inf {'wins': -inf, 'visits': 11}
+Move: ['2', '0', '1'] Value: 0.797927405783631 {'wins': 12, 'visits': 12}
+Move: ['3', '1', '1'] Value: 0.6980329678864745 {'wins': 10, 'visits': 11}
+Move: ['3', '4', '1'] Value: 0.7889420587955654 {'wins': 11, 'visits': 11}
+= 1
+opponent : legal 1 0 0
+yes
+= 1
+opponent : play 1 0 0
+= 1
+opponent : show
+.0.00
+.00.1
+11.00
+11001
+0.0.1
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+3 4 1
+= 1
+student : play 3 4 1
+= 1
+opponent : show
+.0.00
+.00.1
+11.00
+11001
+0.011
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+3 1 1
+Root board state: 
+.0.00
+.00.1
+11.00
+11001
+0.011
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[3, 0], [2, 1], [2, 2], [2, 3], [2, 2]]
+Root numOfDigitsInCol: 
+[[1, 2], [2, 2], [3, 0], [3, 1], [2, 3]] 
+Moves detail: 
+Move: ['0', '0', '1'] Value: 0.5958548115672619 {'wins': 3, 'visits': 3}
+Move: ['2', '0', '1'] Value: 0.5958548115672619 {'wins': 3, 'visits': 3}
+Move: ['3', '1', '1'] Value: inf {'wins': inf, 'visits': 3}
+= 1
+opponent : legal 3 1 1
+yes
+= 1
+opponent : play 3 1 1
+= 1
+opponent : show
+.0.00
+.0011
+11.00
+11001
+0.011
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+0 0 1
+= 1
+student : play 0 0 1
+= 1
+opponent : show
+10.00
+.0011
+11.00
+11001
+0.011
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+2 0 1
+Root board state: 
+10.00
+.0011
+11.00
+11001
+0.011
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[3, 1], [2, 2], [2, 2], [2, 3], [2, 2]]
+Root numOfDigitsInCol: 
+[[1, 3], [2, 2], [3, 0], [3, 2], [2, 3]] 
+Moves detail: 
+Move: ['2', '0', '1'] Value: inf {'wins': inf, 'visits': 2}
+= 1
+opponent : legal 2 0 1
+yes
+= 1
+opponent : play 2 0 1
+= 1
+opponent : show
+10100
+.0011
+11.00
+11001
+0.011
+= 1
+opponent : winner
+2
+= 1
+The student program wins!
+
+Test 8 / 12 (67%)Set opponent as: minimax_player.py
+Test 9 / 12 (75%)Set student's program as the first player.
+Test 10 / 12 (83%)student : game 5 5
+= 1
+opponent : game 5 5
+= 1
+student : timelimit 30
+= 1
+opponent : timelimit 30
+= 1
+Begin game:
+
+Student program to play:
+student : genmove
+2 2 1
+Root board state: 
+.....
+.....
+.....
+.....
+.....
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
+Root numOfDigitsInCol: 
+[[0, 0], [0, 0], [0, 0], [0, 0], [0, 0]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.5369631178746579 {'wins': 352, 'visits': 623}
+Move: ['0', '0', '1'] Value: 0.5635507856699058 {'wins': 383, 'visits': 648}
+Move: ['1', '0', '0'] Value: 0.548796771128637 {'wins': 365, 'visits': 633}
+Move: ['1', '0', '1'] Value: 0.5695953016047364 {'wins': 391, 'visits': 655}
+Move: ['2', '0', '0'] Value: 0.5821976239870537 {'wins': 407, 'visits': 668}
+Move: ['2', '0', '1'] Value: 0.5613518759215337 {'wins': 381, 'visits': 647}
+Move: ['3', '0', '0'] Value: 0.5508595467011228 {'wins': 368, 'visits': 636}
+Move: ['3', '0', '1'] Value: 0.5355170529595362 {'wins': 350, 'visits': 621}
+Move: ['4', '0', '0'] Value: 0.5587088471751969 {'wins': 377, 'visits': 643}
+Move: ['4', '0', '1'] Value: 0.553791436808086 {'wins': 371, 'visits': 638}
+Move: ['0', '1', '0'] Value: 0.5309762734396695 {'wins': 345, 'visits': 617}
+Move: ['0', '1', '1'] Value: 0.577640798694695 {'wins': 401, 'visits': 663}
+Move: ['1', '1', '0'] Value: 0.5399999999999999 {'wins': 355, 'visits': 625}
+Move: ['1', '1', '1'] Value: 0.5162193906979763 {'wins': 329, 'visits': 604}
+Move: ['2', '1', '0'] Value: 0.553791436808086 {'wins': 371, 'visits': 638}
+Move: ['2', '1', '1'] Value: 0.5451272054647371 {'wins': 361, 'visits': 630}
+Move: ['3', '1', '0'] Value: 0.5580429856027291 {'wins': 376, 'visits': 642}
+Move: ['3', '1', '1'] Value: 0.5444262151262667 {'wins': 360, 'visits': 629}
+Move: ['4', '1', '0'] Value: 0.5689581091841557 {'wins': 390, 'visits': 654}
+Move: ['4', '1', '1'] Value: 0.5515428551808893 {'wins': 369, 'visits': 637}
+Move: ['0', '2', '0'] Value: 0.5711220191619883 {'wins': 392, 'visits': 655}
+Move: ['0', '2', '1'] Value: 0.5558150008398737 {'wins': 374, 'visits': 641}
+Move: ['1', '2', '0'] Value: 0.5730151102222903 {'wins': 395, 'visits': 658}
+Move: ['1', '2', '1'] Value: 0.5606941624798849 {'wins': 380, 'visits': 646}
+Move: ['2', '2', '0'] Value: 0.5287535563994961 {'wins': 342, 'visits': 614}
+Move: ['2', '2', '1'] Value: 0.5836946299750777 {'wins': 408, 'visits': 668}
+Move: ['3', '2', '0'] Value: 0.5444262151262667 {'wins': 360, 'visits': 629}
+Move: ['3', '2', '1'] Value: 0.5676779087902988 {'wins': 388, 'visits': 652}
+Move: ['4', '2', '0'] Value: 0.548796771128637 {'wins': 365, 'visits': 633}
+Move: ['4', '2', '1'] Value: 0.5580429856027291 {'wins': 376, 'visits': 642}
+Move: ['0', '3', '0'] Value: 0.5324462077116726 {'wins': 347, 'visits': 619}
+Move: ['0', '3', '1'] Value: 0.5551425704735267 {'wins': 373, 'visits': 640}
+Move: ['1', '3', '0'] Value: 0.5465225836614443 {'wins': 363, 'visits': 632}
+Move: ['1', '3', '1'] Value: 0.5248725205695064 {'wins': 338, 'visits': 611}
+Move: ['2', '3', '0'] Value: 0.548796771128637 {'wins': 365, 'visits': 633}
+Move: ['2', '3', '1'] Value: 0.5742676884694983 {'wins': 397, 'visits': 660}
+Move: ['3', '3', '0'] Value: 0.5580429856027291 {'wins': 376, 'visits': 642}
+Move: ['3', '3', '1'] Value: 0.5606941624798849 {'wins': 380, 'visits': 646}
+Move: ['4', '3', '0'] Value: 0.5558150008398737 {'wins': 374, 'visits': 641}
+Move: ['4', '3', '1'] Value: 0.5324462077116726 {'wins': 347, 'visits': 619}
+Move: ['0', '4', '0'] Value: 0.539285265391802 {'wins': 354, 'visits': 624}
+Move: ['0', '4', '1'] Value: 0.5757828399846497 {'wins': 398, 'visits': 660}
+Move: ['1', '4', '0'] Value: 0.548796771128637 {'wins': 365, 'visits': 633}
+Move: ['1', '4', '1'] Value: 0.5593726575207619 {'wins': 378, 'visits': 644}
+Move: ['2', '4', '0'] Value: 0.5407124690024352 {'wins': 356, 'visits': 626}
+Move: ['2', '4', '1'] Value: 0.5600344261412706 {'wins': 379, 'visits': 645}
+Move: ['3', '4', '0'] Value: 0.5821976239870537 {'wins': 407, 'visits': 668}
+Move: ['3', '4', '1'] Value: 0.5472169922976733 {'wins': 364, 'visits': 633}
+Move: ['4', '4', '0'] Value: 0.5309762734396695 {'wins': 345, 'visits': 617}
+Move: ['4', '4', '1'] Value: 0.5263765321951126 {'wins': 340, 'visits': 613}
+= 1
+opponent : legal 2 2 1
+yes
+= 1
+opponent : play 2 2 1
+= 1
+opponent : show
+.....
+.....
+..1..
+.....
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+3 3 0
+= 1
+student : play 3 3 0
+= 1
+opponent : show
+.....
+.....
+..1..
+...0.
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+1 0 1
+Root board state: 
+.....
+.....
+..1..
+...0.
+.....
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[0, 0], [0, 0], [0, 1], [1, 0], [0, 0]]
+Root numOfDigitsInCol: 
+[[0, 0], [0, 0], [0, 1], [1, 0], [0, 0]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.5753803586784006 {'wins': 446, 'visits': 742}
+Move: ['0', '0', '1'] Value: 0.5425890426500882 {'wins': 400, 'visits': 703}
+Move: ['1', '0', '0'] Value: 0.521685637155048 {'wins': 373, 'visits': 680}
+Move: ['1', '0', '1'] Value: 0.6004541171175781 {'wins': 483, 'visits': 772}
+Move: ['2', '0', '0'] Value: 0.560412086412658 {'wins': 424, 'visits': 723}
+Move: ['2', '0', '1'] Value: 0.554845358345861 {'wins': 416, 'visits': 716}
+Move: ['3', '0', '0'] Value: 0.556048933969688 {'wins': 418, 'visits': 718}
+Move: ['3', '0', '1'] Value: 0.5818991921805532 {'wins': 455, 'visits': 749}
+Move: ['4', '0', '0'] Value: 0.5641347231529603 {'wins': 429, 'visits': 727}
+Move: ['4', '0', '1'] Value: 0.5898748771547586 {'wins': 467, 'visits': 759}
+Move: ['0', '1', '0'] Value: 0.5332937587106443 {'wins': 388, 'visits': 693}
+Move: ['0', '1', '1'] Value: 0.5813573368133044 {'wins': 454, 'visits': 748}
+Move: ['1', '1', '0'] Value: 0.5641347231529603 {'wins': 429, 'visits': 727}
+Move: ['1', '1', '1'] Value: 0.549785806151741 {'wins': 409, 'visits': 710}
+Move: ['2', '1', '0'] Value: 0.5971367590562873 {'wins': 478, 'visits': 768}
+Move: ['2', '1', '1'] Value: 0.5419562709126945 {'wins': 399, 'visits': 702}
+Move: ['3', '1', '0'] Value: 0.535388017548635 {'wins': 390, 'visits': 694}
+Move: ['3', '1', '1'] Value: 0.5592288346533473 {'wins': 422, 'visits': 721}
+Move: ['4', '1', '0'] Value: 0.5528424633007423 {'wins': 414, 'visits': 715}
+Move: ['4', '1', '1'] Value: 0.5319814541254227 {'wins': 386, 'visits': 691}
+Move: ['0', '2', '0'] Value: 0.5725869460723236 {'wins': 441, 'visits': 737}
+Move: ['0', '2', '1'] Value: 0.5578418721013362 {'wins': 421, 'visits': 721}
+Move: ['1', '2', '0'] Value: 0.5598212737125178 {'wins': 423, 'visits': 722}
+Move: ['1', '2', '1'] Value: 0.5037867712782822 {'wins': 351, 'visits': 661}
+Move: ['3', '2', '0'] Value: 0.5853803561386227 {'wins': 460, 'visits': 753}
+Move: ['3', '2', '1'] Value: 0.5767280675732793 {'wins': 447, 'visits': 742}
+Move: ['4', '2', '0'] Value: 0.565872659560892 {'wins': 432, 'visits': 730}
+Move: ['4', '2', '1'] Value: 0.5504005509474504 {'wins': 410, 'visits': 711}
+Move: ['0', '3', '0'] Value: 0.5425890426500882 {'wins': 400, 'visits': 703}
+Move: ['0', '3', '1'] Value: 0.549785806151741 {'wins': 409, 'visits': 710}
+Move: ['1', '3', '0'] Value: 0.5712300939692028 {'wins': 440, 'visits': 737}
+Move: ['1', '3', '1'] Value: 0.5425890426500882 {'wins': 400, 'visits': 703}
+Move: ['2', '3', '0'] Value: 0.5504005509474504 {'wins': 410, 'visits': 711}
+Move: ['2', '3', '1'] Value: 0.5522345309492405 {'wins': 413, 'visits': 714}
+Move: ['4', '3', '0'] Value: 0.560412086412658 {'wins': 424, 'visits': 723}
+Move: ['4', '3', '1'] Value: 0.5800204384175824 {'wins': 453, 'visits': 748}
+Move: ['0', '4', '0'] Value: 0.5664488260349739 {'wins': 433, 'visits': 731}
+Move: ['0', '4', '1'] Value: 0.5153646798224338 {'wins': 365, 'visits': 673}
+Move: ['1', '4', '0'] Value: 0.5829786079248167 {'wins': 457, 'visits': 751}
+Move: ['1', '4', '1'] Value: 0.5592288346533473 {'wins': 422, 'visits': 721}
+Move: ['2', '4', '0'] Value: 0.5829786079248167 {'wins': 457, 'visits': 751}
+Move: ['2', '4', '1'] Value: 0.5522345309492405 {'wins': 413, 'visits': 714}
+Move: ['3', '4', '0'] Value: 0.5189349112426035 {'wins': 369, 'visits': 676}
+Move: ['3', '4', '1'] Value: 0.554845358345861 {'wins': 416, 'visits': 716}
+Move: ['4', '4', '0'] Value: 0.5689607354448114 {'wins': 436, 'visits': 733}
+Move: ['4', '4', '1'] Value: 0.5306615868682593 {'wins': 384, 'visits': 689}
+= 1
+opponent : legal 1 0 1
+yes
+= 1
+opponent : play 1 0 1
+= 1
+opponent : show
+.1...
+.....
+..1..
+...0.
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+2 1 0
+= 1
+student : play 2 1 0
+= 1
+opponent : show
+.1...
+..0..
+..1..
+...0.
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+2 4 1
+Root board state: 
+.1...
+..0..
+..1..
+...0.
+.....
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[0, 1], [1, 0], [0, 1], [1, 0], [0, 0]]
+Root numOfDigitsInCol: 
+[[0, 0], [0, 1], [1, 1], [1, 0], [0, 0]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.5861279496558162 {'wins': 524, 'visits': 859}
+Move: ['0', '0', '1'] Value: 0.5591786041150723 {'wins': 478, 'visits': 819}
+Move: ['2', '0', '0'] Value: 0.5576029416667647 {'wins': 475, 'visits': 816}
+Move: ['2', '0', '1'] Value: 0.5930550469940424 {'wins': 536, 'visits': 869}
+Move: ['3', '0', '0'] Value: 0.561261745318477 {'wins': 482, 'visits': 823}
+Move: ['3', '0', '1'] Value: 0.590990306101419 {'wins': 533, 'visits': 867}
+Move: ['4', '0', '0'] Value: 0.5624768121471525 {'wins': 483, 'visits': 823}
+Move: ['4', '0', '1'] Value: 0.553182284865357 {'wins': 468, 'visits': 810}
+Move: ['0', '1', '0'] Value: 0.5492412852885025 {'wins': 462, 'visits': 805}
+Move: ['0', '1', '1'] Value: 0.5826038701701599 {'wins': 518, 'visits': 854}
+Move: ['1', '1', '0'] Value: 0.5497852389662411 {'wins': 463, 'visits': 806}
+Move: ['1', '1', '1'] Value: 0.5939622314710411 {'wins': 538, 'visits': 871}
+Move: ['3', '1', '0'] Value: 0.5553175925494325 {'wins': 472, 'visits': 814}
+Move: ['3', '1', '1'] Value: 0.5724776124623124 {'wins': 500, 'visits': 838}
+Move: ['4', '1', '0'] Value: 0.5687836523823211 {'wins': 494, 'visits': 833}
+Move: ['4', '1', '1'] Value: 0.5547857215238173 {'wins': 471, 'visits': 813}
+Move: ['0', '2', '0'] Value: 0.5714837736689937 {'wins': 498, 'visits': 836}
+Move: ['0', '2', '1'] Value: 0.5953152818092308 {'wins': 541, 'visits': 874}
+Move: ['1', '2', '0'] Value: 0.558654658307451 {'wins': 477, 'visits': 818}
+Move: ['1', '2', '1'] Value: 0.5761279672629405 {'wins': 506, 'visits': 843}
+Move: ['3', '2', '0'] Value: 0.5960107658834229 {'wins': 541, 'visits': 873}
+Move: ['3', '2', '1'] Value: 0.5597012811114793 {'wins': 479, 'visits': 820}
+Move: ['4', '2', '0'] Value: 0.5886869077050296 {'wins': 528, 'visits': 862}
+Move: ['4', '2', '1'] Value: 0.5960107658834229 {'wins': 541, 'visits': 873}
+Move: ['0', '3', '0'] Value: 0.5687836523823211 {'wins': 494, 'visits': 833}
+Move: ['0', '3', '1'] Value: 0.5452512626584708 {'wins': 456, 'visits': 800}
+Move: ['1', '3', '0'] Value: 0.560742847127051 {'wins': 481, 'visits': 822}
+Move: ['1', '3', '1'] Value: 0.5282981932938573 {'wins': 430, 'visits': 777}
+Move: ['2', '3', '0'] Value: 0.5645340684614658 {'wins': 487, 'visits': 827}
+Move: ['2', '3', '1'] Value: 0.5553175925494325 {'wins': 472, 'visits': 814}
+Move: ['4', '3', '0'] Value: 0.5692861622188595 {'wins': 495, 'visits': 834}
+Move: ['4', '3', '1'] Value: 0.5977993956066759 {'wins': 545, 'visits': 877}
+Move: ['0', '4', '0'] Value: 0.5430283538046078 {'wins': 452, 'visits': 796}
+Move: ['0', '4', '1'] Value: 0.5576029416667647 {'wins': 475, 'visits': 816}
+Move: ['1', '4', '0'] Value: 0.5508691354393902 {'wins': 465, 'visits': 808}
+Move: ['1', '4', '1'] Value: 0.5277065159947709 {'wins': 429, 'visits': 776}
+Move: ['2', '4', '0'] Value: 0.5508691354393902 {'wins': 465, 'visits': 808}
+Move: ['2', '4', '1'] Value: 0.5998253084044107 {'wins': 548, 'visits': 879}
+Move: ['3', '4', '0'] Value: 0.4627252076105858 {'wins': 341, 'visits': 697}
+Move: ['3', '4', '1'] Value: 0.5973537579660636 {'wins': 544, 'visits': 876}
+Move: ['4', '4', '0'] Value: 0.5960107658834229 {'wins': 541, 'visits': 873}
+Move: ['4', '4', '1'] Value: 0.5342515974311202 {'wins': 439, 'visits': 785}
+= 1
+opponent : legal 2 4 1
+yes
+= 1
+opponent : play 2 4 1
+= 1
+opponent : show
+.1...
+..0..
+..1..
+...0.
+..1..
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+1 1 0
+= 1
+student : play 1 1 0
+= 1
+opponent : show
+.1...
+.00..
+..1..
+...0.
+..1..
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+1 2 1
+Root board state: 
+.1...
+.00..
+..1..
+...0.
+..1..
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[0, 1], [2, 0], [0, 1], [1, 0], [0, 1]]
+Root numOfDigitsInCol: 
+[[0, 0], [1, 1], [1, 2], [1, 0], [0, 0]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.5659324714940673 {'wins': 659, 'visits': 1123}
+Move: ['0', '0', '1'] Value: 0.49143364486672647 {'wins': 500, 'visits': 973}
+Move: ['2', '0', '0'] Value: 0.5139888224129028 {'wins': 544, 'visits': 1015}
+Move: ['2', '0', '1'] Value: 0.5818746258445069 {'wins': 700, 'visits': 1162}
+Move: ['3', '0', '0'] Value: 0.5462922709118361 {'wins': 613, 'visits': 1080}
+Move: ['3', '0', '1'] Value: 0.47452390402736544 {'wins': 468, 'visits': 941}
+Move: ['4', '0', '0'] Value: 0.5111641900456134 {'wins': 538, 'visits': 1009}
+Move: ['4', '0', '1'] Value: 0.5619962950673636 {'wins': 650, 'visits': 1115}
+Move: ['0', '1', '1'] Value: 0.5851724128347389 {'wins': 708, 'visits': 1169}
+Move: ['3', '1', '1'] Value: 0.553673244981619 {'wins': 630, 'visits': 1096}
+Move: ['4', '1', '0'] Value: 0.5790473112200623 {'wins': 692, 'visits': 1154}
+Move: ['4', '1', '1'] Value: 0.5282187933318652 {'wins': 573, 'visits': 1042}
+Move: ['0', '2', '0'] Value: 0.5619962950673636 {'wins': 650, 'visits': 1115}
+Move: ['0', '2', '1'] Value: 0.4777810395197457 {'wins': 474, 'visits': 947}
+Move: ['1', '2', '0'] Value: 0.5351901338807119 {'wins': 589, 'visits': 1058}
+Move: ['1', '2', '1'] Value: 0.5897917036845384 {'wins': 720, 'visits': 1180}
+Move: ['3', '2', '0'] Value: 0.5560458532288776 {'wins': 636, 'visits': 1102}
+Move: ['3', '2', '1'] Value: 0.5186812709399733 {'wins': 553, 'visits': 1023}
+Move: ['4', '2', '0'] Value: 0.5685567868676458 {'wins': 666, 'visits': 1130}
+Move: ['4', '2', '1'] Value: 0.5524772320615342 {'wins': 627, 'visits': 1093}
+Move: ['0', '3', '0'] Value: 0.4862693988485399 {'wins': 490, 'visits': 963}
+Move: ['0', '3', '1'] Value: 0.542470013890193 {'wins': 605, 'visits': 1073}
+Move: ['1', '3', '0'] Value: 0.5236855809795561 {'wins': 564, 'visits': 1034}
+Move: ['1', '3', '1'] Value: 0.5321661359577295 {'wins': 582, 'visits': 1051}
+Move: ['2', '3', '0'] Value: 0.5572225536705588 {'wins': 639, 'visits': 1105}
+Move: ['4', '3', '0'] Value: 0.5720284947932082 {'wins': 674, 'visits': 1137}
+Move: ['4', '3', '1'] Value: 0.5299815045121274 {'wins': 577, 'visits': 1046}
+Move: ['0', '4', '0'] Value: 0.5592954478628787 {'wins': 643, 'visits': 1108}
+Move: ['0', '4', '1'] Value: 0.5776189957035318 {'wins': 688, 'visits': 1150}
+Move: ['1', '4', '0'] Value: 0.5403781006613152 {'wins': 600, 'visits': 1068}
+Move: ['1', '4', '1'] Value: 0.5604570957358249 {'wins': 646, 'visits': 1111}
+Move: ['3', '4', '0'] Value: 0.567810285573364 {'wins': 664, 'visits': 1128}
+Move: ['3', '4', '1'] Value: 0.5420531830585421 {'wins': 604, 'visits': 1072}
+Move: ['4', '4', '0'] Value: 0.5044105167849692 {'wins': 525, 'visits': 997}
+Move: ['4', '4', '1'] Value: 0.5767494304861405 {'wins': 687, 'visits': 1150}
+= 1
+opponent : legal 1 2 1
+yes
+= 1
+opponent : play 1 2 1
+= 1
+opponent : show
+.1...
+.00..
+.11..
+...0.
+..1..
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+0 4 0
+= 1
+student : play 0 4 0
+= 1
+opponent : show
+.1...
+.00..
+.11..
+...0.
+0.1..
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+0 2 0
+Root board state: 
+.1...
+.00..
+.11..
+...0.
+0.1..
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[0, 1], [2, 0], [0, 2], [1, 0], [1, 1]]
+Root numOfDigitsInCol: 
+[[1, 0], [1, 2], [1, 2], [1, 0], [0, 0]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.6017351920631739 {'wins': 912, 'visits': 1471}
+Move: ['0', '0', '1'] Value: 0.5293069289476464 {'wins': 688, 'visits': 1253}
+Move: ['2', '0', '0'] Value: 0.5962265891441403 {'wins': 893, 'visits': 1453}
+Move: ['2', '0', '1'] Value: 0.586353506229589 {'wins': 859, 'visits': 1420}
+Move: ['3', '0', '0'] Value: 0.5604072858484356 {'wins': 776, 'visits': 1339}
+Move: ['3', '0', '1'] Value: 0.5810334817711729 {'wins': 842, 'visits': 1404}
+Move: ['4', '0', '0'] Value: 0.5661118374068155 {'wins': 794, 'visits': 1357}
+Move: ['4', '0', '1'] Value: 0.5956827045233376 {'wins': 891, 'visits': 1451}
+Move: ['0', '1', '1'] Value: 0.5846377411967834 {'wins': 853, 'visits': 1414}
+Move: ['3', '1', '1'] Value: 0.5801563496209151 {'wins': 839, 'visits': 1401}
+Move: ['4', '1', '0'] Value: 0.5554374072108247 {'wins': 762, 'visits': 1326}
+Move: ['4', '1', '1'] Value: 0.5918333695271852 {'wins': 877, 'visits': 1437}
+Move: ['0', '2', '0'] Value: 0.6867397889782801 {'wins': 1270, 'visits': 1806}
+Move: ['3', '2', '0'] Value: 0.5757140586893357 {'wins': 824, 'visits': 1386}
+Move: ['4', '2', '0'] Value: 0.5772054071325952 {'wins': 829, 'visits': 1391}
+Move: ['4', '2', '1'] Value: 0.5751145192681838 {'wins': 822, 'visits': 1384}
+Move: ['0', '3', '0'] Value: 0.3269772400493912 {'wins': 298, 'visits': 849}
+Move: ['0', '3', '1'] Value: 0.6763170530041416 {'wins': 1219, 'visits': 1759}
+Move: ['1', '3', '0'] Value: 0.5676698245799234 {'wins': 799, 'visits': 1362}
+Move: ['1', '3', '1'] Value: 0.5315030397149371 {'wins': 694, 'visits': 1259}
+Move: ['2', '3', '0'] Value: 0.5632784987752522 {'wins': 785, 'visits': 1348}
+Move: ['4', '3', '0'] Value: 0.6312505468151249 {'wins': 1022, 'visits': 1575}
+Move: ['4', '3', '1'] Value: 0.535833390355652 {'wins': 706, 'visits': 1271}
+Move: ['1', '4', '0'] Value: 0.5278311962642905 {'wins': 684, 'visits': 1249}
+Move: ['1', '4', '1'] Value: 0.6626277325818802 {'wins': 1156, 'visits': 1701}
+Move: ['3', '4', '0'] Value: 0.6108461566429483 {'wins': 944, 'visits': 1501}
+Move: ['3', '4', '1'] Value: 0.4818721660520301 {'wins': 571, 'visits': 1136}
+Move: ['4', '4', '0'] Value: 0.5418306662865707 {'wins': 723, 'visits': 1288}
+Move: ['4', '4', '1'] Value: 0.6146074595860788 {'wins': 959, 'visits': 1516}
+= 1
+opponent : legal 0 2 0
+yes
+= 1
+opponent : play 0 2 0
+= 1
+opponent : show
+.1...
+.00..
+011..
+...0.
+0.1..
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+4 1 0
+= 1
+student : play 4 1 0
+= 1
+opponent : show
+.1...
+.00.0
+011..
+...0.
+0.1..
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+1 4 1
+Root board state: 
+.1...
+.00.0
+011..
+...0.
+0.1..
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[0, 1], [3, 0], [1, 2], [1, 0], [1, 1]]
+Root numOfDigitsInCol: 
+[[2, 0], [1, 2], [1, 2], [1, 0], [1, 0]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.7354944580218499 {'wins': 1451, 'visits': 1931}
+Move: ['0', '0', '1'] Value: 0.6418095384943701 {'wins': 1010, 'visits': 1531}
+Move: ['2', '0', '0'] Value: 0.7046786824099807 {'wins': 1286, 'visits': 1783}
+Move: ['2', '0', '1'] Value: 0.7184170457359383 {'wins': 1357, 'visits': 1847}
+Move: ['3', '0', '0'] Value: 0.6406652457546039 {'wins': 1005, 'visits': 1526}
+Move: ['3', '0', '1'] Value: 0.7099956029317686 {'wins': 1312, 'visits': 1806}
+Move: ['4', '0', '0'] Value: 0.7534512454008908 {'wins': 1558, 'visits': 2026}
+Move: ['4', '0', '1'] Value: 0.6585444552034745 {'wins': 1077, 'visits': 1593}
+Move: ['0', '1', '1'] Value: 0.6866809422436793 {'wins': 1199, 'visits': 1704}
+Move: ['3', '1', '1'] Value: 0.6853754474239273 {'wins': 1194, 'visits': 1700}
+Move: ['3', '2', '0'] Value: 0.6761926696973201 {'wins': 1151, 'visits': 1660}
+Move: ['4', '2', '0'] Value: 0.633259411051032 {'wins': 977, 'visits': 1500}
+Move: ['4', '2', '1'] Value: 0.7232411167203295 {'wins': 1382, 'visits': 1869}
+Move: ['0', '3', '1'] Value: 0.6691443500969704 {'wins': 1121, 'visits': 1633}
+Move: ['1', '3', '0'] Value: 0.5846305062087367 {'wins': 812, 'visits': 1345}
+Move: ['1', '3', '1'] Value: 0.700453514739229 {'wins': 1265, 'visits': 1764}
+Move: ['2', '3', '0'] Value: 0.7536867235218178 {'wins': 1560, 'visits': 2028}
+Move: ['4', '3', '0'] Value: 0.6681548296053041 {'wins': 1116, 'visits': 1628}
+Move: ['4', '3', '1'] Value: 0.6487067377296643 {'wins': 1037, 'visits': 1556}
+Move: ['1', '4', '0'] Value: 0.5940755372824833 {'wins': 841, 'visits': 1372}
+Move: ['1', '4', '1'] Value: 0.8212402180056225 {'wins': 2050, 'visits': 2454}
+Move: ['3', '4', '0'] Value: 0.747122315963581 {'wins': 1518, 'visits': 1990}
+Move: ['3', '4', '1'] Value: 0.47582183977496 {'wins': 533, 'visits': 1072}
+Move: ['4', '4', '0'] Value: 0.678679075785399 {'wins': 1162, 'visits': 1670}
+Move: ['4', '4', '1'] Value: 0.6895715264431328 {'wins': 1213, 'visits': 1717}
+= 1
+opponent : legal 1 4 1
+yes
+= 1
+opponent : play 1 4 1
+= 1
+opponent : show
+.1...
+.00.0
+011..
+...0.
+011..
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+0 0 0
+= 1
+student : play 0 0 0
+= 1
+opponent : show
+01...
+.00.0
+011..
+...0.
+011..
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+4 3 0
+Root board state: 
+01...
+.00.0
+011..
+...0.
+011..
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[1, 1], [3, 0], [1, 2], [1, 0], [1, 2]]
+Root numOfDigitsInCol: 
+[[3, 0], [1, 3], [1, 2], [1, 0], [1, 0]] 
+Moves detail: 
+Move: ['2', '0', '0'] Value: 0.868349661232006 {'wins': 1867, 'visits': 2113}
+Move: ['2', '0', '1'] Value: 0.8759803153197716 {'wins': 1922, 'visits': 2157}
+Move: ['3', '0', '0'] Value: 0.8618671734124717 {'wins': 1822, 'visits': 2077}
+Move: ['3', '0', '1'] Value: 0.8739301159462254 {'wins': 1907, 'visits': 2145}
+Move: ['4', '0', '0'] Value: 0.6652584493319053 {'wins': 884, 'visits': 1291}
+Move: ['4', '0', '1'] Value: 0.9306980006914817 {'wins': 2388, 'visits': 2528}
+Move: ['0', '1', '1'] Value: 0.8820473529625502 {'wins': 1968, 'visits': 2194}
+Move: ['3', '1', '1'] Value: 0.8793992960097252 {'wins': 1948, 'visits': 2178}
+Move: ['3', '2', '0'] Value: 0.889765908258294 {'wins': 2028, 'visits': 2242}
+Move: ['4', '2', '0'] Value: 0.9872664115303517 {'wins': 3022, 'visits': 3022}
+Move: ['4', '2', '1'] Value: 0.8711607507815096 {'wins': 1887, 'visits': 2129}
+Move: ['0', '3', '1'] Value: 0.8734084219553113 {'wins': 1905, 'visits': 2144}
+Move: ['1', '3', '0'] Value: 0.9406036696988525 {'wins': 2486, 'visits': 2605}
+Move: ['2', '3', '0'] Value: 0.7124528354667164 {'wins': 1046, 'visits': 1431}
+Move: ['4', '3', '0'] Value: inf {'wins': inf, 'visits': 3022}
+Move: ['4', '3', '1'] Value: 0.8578414694794653 {'wins': 1792, 'visits': 2052}
+Move: ['3', '4', '0'] Value: 0.8847548224025075 {'wins': 1990, 'visits': 2212}
+Move: ['4', '4', '0'] Value: 0.9872643041925682 {'wins': 3021, 'visits': 3021}
+Move: ['4', '4', '1'] Value: 0.6831162632053639 {'wins': 941, 'visits': 1340}
+= 1
+opponent : legal 4 3 0
+yes
+= 1
+opponent : play 4 3 0
+= 1
+opponent : show
+01...
+.00.0
+011..
+...00
+011..
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+2 0 0
+= 1
+student : play 2 0 0
+= 1
+opponent : show
+010..
+.00.0
+011..
+...00
+011..
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+4 0 0
+Root board state: 
+010..
+.00.0
+011..
+...00
+011..
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[2, 1], [3, 0], [1, 2], [2, 0], [1, 2]]
+Root numOfDigitsInCol: 
+[[3, 0], [1, 3], [2, 2], [1, 0], [2, 0]] 
+Moves detail: 
+Move: ['3', '0', '0'] Value: 0.9521489851082736 {'wins': 214, 'visits': 214}
+Move: ['3', '0', '1'] Value: 0.9521489851082736 {'wins': 214, 'visits': 214}
+Move: ['4', '0', '0'] Value: inf {'wins': inf, 'visits': 214}
+Move: ['4', '0', '1'] Value: 0.9520367903120728 {'wins': 213, 'visits': 213}
+Move: ['0', '1', '1'] Value: 0.9521489851082736 {'wins': 214, 'visits': 214}
+Move: ['3', '1', '1'] Value: 0.9520367903120728 {'wins': 213, 'visits': 213}
+Move: ['3', '2', '0'] Value: 0.9520367903120728 {'wins': 213, 'visits': 213}
+Move: ['4', '2', '1'] Value: 0.9521489851082736 {'wins': 214, 'visits': 214}
+Move: ['0', '3', '1'] Value: 0.9520367903120728 {'wins': 213, 'visits': 213}
+Move: ['1', '3', '0'] Value: 0.9521489851082736 {'wins': 214, 'visits': 214}
+Move: ['3', '4', '0'] Value: 0.9520367903120728 {'wins': 213, 'visits': 213}
+Move: ['4', '4', '0'] Value: 0.9521489851082736 {'wins': 214, 'visits': 214}
+Move: ['4', '4', '1'] Value: 0.9520367903120728 {'wins': 213, 'visits': 213}
+= 1
+opponent : legal 4 0 0
+yes
+= 1
+opponent : play 4 0 0
+= 1
+opponent : show
+010.0
+.00.0
+011..
+...00
+011..
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+3 0 1
+= 1
+student : play 3 0 1
+= 1
+opponent : show
+01010
+.00.0
+011..
+...00
+011..
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+3 4 0
+Root board state: 
+01010
+.00.0
+011..
+...00
+011..
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[3, 2], [3, 0], [1, 2], [2, 0], [1, 2]]
+Root numOfDigitsInCol: 
+[[3, 0], [1, 3], [2, 2], [1, 1], [3, 0]] 
+Moves detail: 
+Move: ['0', '1', '1'] Value: 0.8762563132923542 {'wins': 32, 'visits': 32}
+Move: ['3', '1', '1'] Value: 0.8742762885812576 {'wins': 31, 'visits': 31}
+Move: ['3', '2', '0'] Value: 0.8742762885812576 {'wins': 31, 'visits': 31}
+Move: ['4', '2', '1'] Value: 0.8762563132923542 {'wins': 32, 'visits': 32}
+Move: ['0', '3', '1'] Value: 0.8742762885812576 {'wins': 31, 'visits': 31}
+Move: ['1', '3', '0'] Value: 0.8742762885812576 {'wins': 31, 'visits': 31}
+Move: ['3', '4', '0'] Value: inf {'wins': inf, 'visits': 32}
+Move: ['4', '4', '1'] Value: 0.8742762885812576 {'wins': 31, 'visits': 31}
+= 1
+opponent : legal 3 4 0
+yes
+= 1
+opponent : play 3 4 0
+= 1
+opponent : show
+01010
+.00.0
+011..
+...00
+0110.
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+0 1 1
+= 1
+student : play 0 1 1
+= 1
+opponent : show
+01010
+100.0
+011..
+...00
+0110.
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+4 2 1
+Root board state: 
+01010
+100.0
+011..
+...00
+0110.
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[3, 2], [3, 1], [1, 2], [2, 0], [2, 2]]
+Root numOfDigitsInCol: 
+[[3, 1], [1, 3], [2, 2], [2, 1], [3, 0]] 
+Moves detail: 
+Move: ['3', '1', '1'] Value: 0.7525126265847084 {'wins': 8, 'visits': 8}
+Move: ['4', '2', '1'] Value: inf {'wins': inf, 'visits': 9}
+Move: ['0', '3', '1'] Value: 0.7525126265847084 {'wins': 8, 'visits': 8}
+Move: ['1', '3', '0'] Value: 0.7525126265847084 {'wins': 8, 'visits': 8}
+Move: ['4', '4', '1'] Value: 0.7525126265847084 {'wins': 8, 'visits': 8}
+= 1
+opponent : legal 4 2 1
+yes
+= 1
+opponent : play 4 2 1
+= 1
+opponent : show
+01010
+100.0
+011.1
+...00
+0110.
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+3 1 1
+= 1
+student : play 3 1 1
+= 1
+opponent : show
+01010
+10010
+011.1
+...00
+0110.
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+0 3 1
+Root board state: 
+01010
+10010
+011.1
+...00
+0110.
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[3, 2], [3, 2], [1, 3], [2, 0], [2, 2]]
+Root numOfDigitsInCol: 
+[[3, 1], [1, 3], [2, 2], [2, 2], [3, 1]] 
+Moves detail: 
+Move: ['0', '3', '1'] Value: inf {'wins': inf, 'visits': 4}
+Move: ['1', '3', '0'] Value: 0.5958548115672619 {'wins': 3, 'visits': 3}
+Move: ['4', '4', '1'] Value: 0.5958548115672619 {'wins': 3, 'visits': 3}
+= 1
+opponent : legal 0 3 1
+yes
+= 1
+opponent : play 0 3 1
+= 1
+opponent : show
+01010
+10010
+011.1
+1..00
+0110.
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+1 3 0
+= 1
+student : play 1 3 0
+= 1
+opponent : show
+01010
+10010
+011.1
+10.00
+0110.
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+4 4 1
+Root board state: 
+01010
+10010
+011.1
+10.00
+0110.
+Root player: 
+1
+Root numOfDigitsInRow: 
+[[3, 2], [3, 2], [1, 3], [3, 1], [2, 2]]
+Root numOfDigitsInCol: 
+[[3, 2], [2, 3], [2, 2], [2, 2], [3, 1]] 
+Moves detail: 
+Move: ['4', '4', '1'] Value: inf {'wins': inf, 'visits': 2}
+= 1
+opponent : legal 4 4 1
+yes
+= 1
+opponent : play 4 4 1
+= 1
+opponent : show
+01010
+10010
+011.1
+10.00
+01101
+= 1
+opponent : winner
+1
+= 1
+The student program wins!
+
+Test 11 / 12 (92%)Set student's program as the second player.
+Test 12 / 12 (100%)student : game 5 5
+= 1
+opponent : game 5 5
+= 1
+student : timelimit 30
+= 1
+opponent : timelimit 30
+= 1
+Begin game:
+
+Opponent program to play:
+opponent : genmove
+4 2 0
+= 1
+student : play 4 2 0
+= 1
+opponent : show
+.....
+.....
+....0
+.....
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+2 2 0
+Root board state: 
+.....
+.....
+....0
+.....
+.....
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[0, 0], [0, 0], [1, 0], [0, 0], [0, 0]]
+Root numOfDigitsInCol: 
+[[0, 0], [0, 0], [0, 0], [0, 0], [1, 0]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.3940167290321396 {'wins': 287, 'visits': 682}
+Move: ['0', '0', '1'] Value: 0.38698359498509494 {'wins': 279, 'visits': 674}
+Move: ['1', '0', '0'] Value: 0.3788702018924531 {'wins': 270, 'visits': 665}
+Move: ['1', '0', '1'] Value: 0.36806858404748455 {'wins': 259, 'visits': 655}
+Move: ['2', '0', '0'] Value: 0.36426990606598725 {'wins': 255, 'visits': 651}
+Move: ['2', '0', '1'] Value: 0.3825029536338885 {'wins': 274, 'visits': 669}
+Move: ['3', '0', '0'] Value: 0.4131438079416956 {'wins': 309, 'visits': 703}
+Move: ['3', '0', '1'] Value: 0.39747212653762054 {'wins': 291, 'visits': 686}
+Move: ['4', '0', '0'] Value: 0.3989298524851424 {'wins': 292, 'visits': 686}
+Move: ['4', '0', '1'] Value: 0.37147274297539296 {'wins': 262, 'visits': 657}
+Move: ['0', '1', '0'] Value: 0.42885435476430434 {'wins': 328, 'visits': 721}
+Move: ['0', '1', '1'] Value: 0.38964038912295307 {'wins': 282, 'visits': 677}
+Move: ['1', '1', '0'] Value: 0.3613902918427454 {'wins': 252, 'visits': 648}
+Move: ['1', '1', '1'] Value: 0.37611699023810263 {'wins': 267, 'visits': 662}
+Move: ['2', '1', '0'] Value: 0.37240720748672806 {'wins': 263, 'visits': 658}
+Move: ['2', '1', '1'] Value: 0.41232664128306484 {'wins': 308, 'visits': 702}
+Move: ['3', '1', '0'] Value: 0.35750930348349486 {'wins': 248, 'visits': 644}
+Move: ['3', '1', '1'] Value: 0.39227387244916556 {'wins': 285, 'visits': 680}
+Move: ['4', '1', '0'] Value: 0.4280792069291691 {'wins': 327, 'visits': 720}
+Move: ['4', '1', '1'] Value: 0.37611699023810263 {'wins': 267, 'visits': 662}
+Move: ['0', '2', '0'] Value: 0.3331776460690577 {'wins': 224, 'visits': 620}
+Move: ['0', '2', '1'] Value: 0.3860927630319435 {'wins': 278, 'visits': 673}
+Move: ['1', '2', '0'] Value: 0.41150715661508813 {'wins': 307, 'visits': 701}
+Move: ['1', '2', '1'] Value: 0.4065410117164753 {'wins': 301, 'visits': 695}
+Move: ['2', '2', '0'] Value: 0.42885435476430434 {'wins': 328, 'visits': 721}
+Move: ['2', '2', '1'] Value: 0.4139586664403548 {'wins': 310, 'visits': 704}
+Move: ['3', '2', '0'] Value: 0.42730191550916735 {'wins': 326, 'visits': 719}
+Move: ['3', '2', '1'] Value: 0.3414937106359899 {'wins': 232, 'visits': 628}
+Move: ['0', '3', '0'] Value: 0.41860764325718913 {'wins': 315, 'visits': 708}
+Move: ['0', '3', '1'] Value: 0.4171952138786581 {'wins': 314, 'visits': 708}
+Move: ['1', '3', '0'] Value: 0.3997853283975057 {'wins': 293, 'visits': 687}
+Move: ['1', '3', '1'] Value: 0.39488435126863725 {'wins': 288, 'visits': 683}
+Move: ['2', '3', '0'] Value: 0.38698359498509494 {'wins': 279, 'visits': 674}
+Move: ['2', '3', '1'] Value: 0.37053544532803057 {'wins': 261, 'visits': 656}
+Move: ['3', '3', '0'] Value: 0.3989298524851424 {'wins': 292, 'visits': 686}
+Move: ['3', '3', '1'] Value: 0.3878718022526323 {'wins': 280, 'visits': 675}
+Move: ['4', '3', '0'] Value: 0.3797824578666824 {'wins': 271, 'visits': 666}
+Move: ['4', '3', '1'] Value: 0.3843031782626169 {'wins': 276, 'visits': 671}
+Move: ['0', '4', '0'] Value: 0.3860927630319435 {'wins': 278, 'visits': 673}
+Move: ['0', '4', '1'] Value: 0.3997853283975057 {'wins': 293, 'visits': 687}
+Move: ['1', '4', '0'] Value: 0.37519373043108106 {'wins': 266, 'visits': 661}
+Move: ['1', '4', '1'] Value: 0.3797824578666824 {'wins': 271, 'visits': 666}
+Move: ['2', '4', '0'] Value: 0.3535800704735267 {'wins': 244, 'visits': 640}
+Move: ['2', '4', '1'] Value: 0.38698359498509494 {'wins': 279, 'visits': 674}
+Move: ['3', '4', '0'] Value: 0.3815988215918441 {'wins': 273, 'visits': 668}
+Move: ['3', '4', '1'] Value: 0.42259264811788755 {'wins': 320, 'visits': 713}
+Move: ['4', '4', '0'] Value: 0.39052079175102045 {'wins': 283, 'visits': 678}
+Move: ['4', '4', '1'] Value: 0.3989298524851424 {'wins': 292, 'visits': 686}
+= 1
+opponent : legal 2 2 0
+yes
+= 1
+opponent : play 2 2 0
+= 1
+opponent : show
+.....
+.....
+..0.0
+.....
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+2 1 1
+= 1
+student : play 2 1 1
+= 1
+opponent : show
+.....
+..1..
+..0.0
+.....
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+0 0 0
+Root board state: 
+.....
+..1..
+..0.0
+.....
+.....
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[0, 0], [0, 1], [2, 0], [0, 0], [0, 0]]
+Root numOfDigitsInCol: 
+[[0, 0], [0, 0], [1, 1], [0, 0], [1, 0]] 
+Moves detail: 
+Move: ['0', '0', '0'] Value: 0.419764252296173 {'wins': 388, 'visits': 875}
+Move: ['0', '0', '1'] Value: 0.3478634435424485 {'wins': 288, 'visits': 772}
+Move: ['1', '0', '0'] Value: 0.3784134156452556 {'wins': 328, 'visits': 814}
+Move: ['1', '0', '1'] Value: 0.32868354002186057 {'wins': 265, 'visits': 748}
+Move: ['2', '0', '0'] Value: 0.3295627435824224 {'wins': 266, 'visits': 749}
+Move: ['2', '0', '1'] Value: 0.34032015957574524 {'wins': 279, 'visits': 763}
+Move: ['3', '0', '0'] Value: 0.3915972510305309 {'wins': 346, 'visits': 832}
+Move: ['3', '0', '1'] Value: 0.3658926754126479 {'wins': 311, 'visits': 796}
+Move: ['4', '0', '0'] Value: 0.34116703541162385 {'wins': 280, 'visits': 764}
+Move: ['4', '0', '1'] Value: 0.3478634435424485 {'wins': 288, 'visits': 772}
+Move: ['0', '1', '0'] Value: 0.37236588412753135 {'wins': 320, 'visits': 806}
+Move: ['0', '1', '1'] Value: 0.35958129900169356 {'wins': 303, 'visits': 788}
+Move: ['1', '1', '0'] Value: 0.3330563189540277 {'wins': 270, 'visits': 753}
+Move: ['1', '1', '1'] Value: 0.376159502820891 {'wins': 325, 'visits': 811}
+Move: ['3', '1', '0'] Value: 0.3478634435424485 {'wins': 288, 'visits': 772}
+Move: ['3', '1', '1'] Value: 0.4164976624307429 {'wins': 383, 'visits': 870}
+Move: ['4', '1', '0'] Value: 0.39819202420244226 {'wins': 356, 'visits': 843}
+Move: ['4', '1', '1'] Value: 0.35637755102040813 {'wins': 299, 'visits': 784}
+Move: ['0', '2', '0'] Value: 0.3377662259829917 {'wins': 276, 'visits': 760}
+Move: ['0', '2', '1'] Value: 0.3967895362663496 {'wins': 354, 'visits': 841}
+Move: ['1', '2', '0'] Value: 0.36667273287466706 {'wins': 312, 'visits': 797}
+Move: ['1', '2', '1'] Value: 0.33043961398309224 {'wins': 267, 'visits': 750}
+Move: ['3', '2', '1'] Value: 0.3511601242421936 {'wins': 292, 'visits': 776}
+Move: ['0', '3', '0'] Value: 0.3799068632353922 {'wins': 330, 'visits': 816}
+Move: ['0', '3', '1'] Value: 0.3503391286839935 {'wins': 291, 'visits': 775}
+Move: ['1', '3', '0'] Value: 0.3233587953360825 {'wins': 259, 'visits': 742}
+Move: ['1', '3', '1'] Value: 0.3377662259829917 {'wins': 276, 'visits': 760}
+Move: ['2', '3', '0'] Value: 0.3511601242421936 {'wins': 292, 'visits': 776}
+Move: ['2', '3', '1'] Value: 0.38360880841089867 {'wins': 335, 'visits': 821}
+Move: ['3', '3', '0'] Value: 0.35314110761374806 {'wins': 295, 'visits': 780}
+Move: ['3', '3', '1'] Value: 0.3960858006611129 {'wins': 353, 'visits': 840}
+Move: ['4', '3', '0'] Value: 0.36511066534362224 {'wins': 310, 'visits': 795}
+Move: ['4', '3', '1'] Value: 0.38360880841089867 {'wins': 335, 'visits': 821}
+Move: ['0', '4', '0'] Value: 0.37160153373570737 {'wins': 319, 'visits': 805}
+Move: ['0', '4', '1'] Value: 0.37312834969531783 {'wins': 321, 'visits': 807}
+Move: ['1', '4', '0'] Value: 0.3627528457181081 {'wins': 307, 'visits': 792}
+Move: ['1', '4', '1'] Value: 0.3635407579111473 {'wins': 308, 'visits': 793}
+Move: ['2', '4', '0'] Value: 0.3579834808187956 {'wins': 301, 'visits': 786}
+Move: ['2', '4', '1'] Value: 0.3930271694131042 {'wins': 348, 'visits': 834}
+Move: ['3', '4', '0'] Value: 0.37160153373570737 {'wins': 319, 'visits': 805}
+Move: ['3', '4', '1'] Value: 0.3865382190752932 {'wins': 339, 'visits': 825}
+Move: ['4', '4', '0'] Value: 0.3930271694131042 {'wins': 348, 'visits': 834}
+Move: ['4', '4', '1'] Value: 0.38287201281879646 {'wins': 334, 'visits': 820}
+= 1
+opponent : legal 0 0 0
+yes
+= 1
+opponent : play 0 0 0
+= 1
+opponent : show
+0....
+..1..
+..0.0
+.....
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+1 0 0
+= 1
+student : play 1 0 0
+= 1
+opponent : show
+00...
+..1..
+..0.0
+.....
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+1 2 0
+Root board state: 
+00...
+..1..
+..0.0
+.....
+.....
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[2, 0], [0, 1], [2, 0], [0, 0], [0, 0]]
+Root numOfDigitsInCol: 
+[[1, 0], [1, 0], [1, 1], [0, 0], [1, 0]] 
+Moves detail: 
+Move: ['2', '0', '1'] Value: 0.3732454550191111 {'wins': 360, 'visits': 908}
+Move: ['3', '0', '0'] Value: 0.3661235699040914 {'wins': 349, 'visits': 896}
+Move: ['3', '0', '1'] Value: 0.4497509735889942 {'wins': 494, 'visits': 1048}
+Move: ['4', '0', '0'] Value: 0.35275235274744593 {'wins': 329, 'visits': 874}
+Move: ['4', '0', '1'] Value: 0.42360278376176375 {'wins': 444, 'visits': 996}
+Move: ['0', '1', '0'] Value: 0.3907902452414083 {'wins': 388, 'visits': 938}
+Move: ['0', '1', '1'] Value: 0.4094831174192202 {'wins': 419, 'visits': 970}
+Move: ['1', '1', '0'] Value: 0.34614148249966026 {'wins': 320, 'visits': 865}
+Move: ['1', '1', '1'] Value: 0.4348386261424741 {'wins': 465, 'visits': 1018}
+Move: ['3', '1', '0'] Value: 0.36888888888888893 {'wins': 353, 'visits': 900}
+Move: ['3', '1', '1'] Value: 0.40828627183827926 {'wins': 417, 'visits': 968}
+Move: ['4', '1', '0'] Value: 0.4337477082374873 {'wins': 463, 'visits': 1016}
+Move: ['4', '1', '1'] Value: 0.3933286486682464 {'wins': 392, 'visits': 942}
+Move: ['0', '2', '0'] Value: 0.37392217953316403 {'wins': 361, 'visits': 909}
+Move: ['0', '2', '1'] Value: 0.38736991963120376 {'wins': 382, 'visits': 931}
+Move: ['1', '2', '0'] Value: 0.48083816279221675 {'wins': 560, 'visits': 1116}
+Move: ['1', '2', '1'] Value: 0.3505638388189171 {'wins': 326, 'visits': 871}
+Move: ['3', '2', '1'] Value: 0.4046660214272566 {'wins': 411, 'visits': 962}
+Move: ['0', '3', '0'] Value: 0.44560161375458085 {'wins': 486, 'visits': 1040}
+Move: ['0', '3', '1'] Value: 0.4155439761075465 {'wins': 430, 'visits': 982}
+Move: ['1', '3', '0'] Value: 0.41902557985455224 {'wins': 436, 'visits': 988}
+Move: ['1', '3', '1'] Value: 0.4224653562589455 {'wins': 442, 'visits': 994}
+Move: ['2', '3', '0'] Value: 0.39896235381371925 {'wins': 401, 'visits': 951}
+Move: ['2', '3', '1'] Value: 0.4241697946184697 {'wins': 445, 'visits': 997}
+Move: ['3', '3', '0'] Value: 0.42075064910779403 {'wins': 439, 'visits': 991}
+Move: ['3', '3', '1'] Value: 0.4242994265455548 {'wins': 446, 'visits': 999}
+Move: ['4', '3', '0'] Value: 0.3661235699040914 {'wins': 349, 'visits': 896}
+Move: ['4', '3', '1'] Value: 0.3983416326206406 {'wins': 400, 'visits': 950}
+Move: ['0', '4', '0'] Value: 0.4213233648717408 {'wins': 440, 'visits': 992}
+Move: ['0', '4', '1'] Value: 0.41960176009006783 {'wins': 437, 'visits': 989}
+Move: ['1', '4', '0'] Value: 0.4161271804992602 {'wins': 431, 'visits': 983}
+Move: ['1', '4', '1'] Value: 0.44402918123110274 {'wins': 483, 'visits': 1037}
+Move: ['2', '4', '0'] Value: 0.39206213446440613 {'wins': 390, 'visits': 940}
+Move: ['2', '4', '1'] Value: 0.3821596527157653 {'wins': 374, 'visits': 923}
+Move: ['3', '4', '0'] Value: 0.4348386261424741 {'wins': 465, 'visits': 1018}
+Move: ['3', '4', '1'] Value: 0.3772836947035412 {'wins': 366, 'visits': 914}
+Move: ['4', '4', '0'] Value: 0.3970962805425349 {'wins': 398, 'visits': 948}
+Move: ['4', '4', '1'] Value: 0.4435030234409233 {'wins': 482, 'visits': 1036}
+= 1
+opponent : legal 1 2 0
+yes
+= 1
+opponent : play 1 2 0
+= 1
+opponent : show
+00...
+..1..
+.00.0
+.....
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+2 3 0
+= 1
+student : play 2 3 0
+= 1
+opponent : show
+00...
+..1..
+.00.0
+..0..
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+3 1 1
+Root board state: 
+00...
+..1..
+.00.0
+..0..
+.....
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[2, 0], [0, 1], [3, 0], [1, 0], [0, 0]]
+Root numOfDigitsInCol: 
+[[1, 0], [2, 0], [2, 1], [0, 0], [1, 0]] 
+Moves detail: 
+Move: ['2', '0', '1'] Value: 0.4316607690327078 {'wins': 563, 'visits': 1247}
+Move: ['3', '0', '0'] Value: 0.4140857652639737 {'wins': 522, 'visits': 1202}
+Move: ['3', '0', '1'] Value: 0.48049055445657346 {'wins': 693, 'visits': 1388}
+Move: ['4', '0', '0'] Value: 0.388566972782054 {'wins': 467, 'visits': 1141}
+Move: ['4', '0', '1'] Value: 0.4321082288255465 {'wins': 564, 'visits': 1248}
+Move: ['0', '1', '0'] Value: 0.3659535746542139 {'wins': 422, 'visits': 1090}
+Move: ['0', '1', '1'] Value: 0.5002248054844624 {'wins': 753, 'visits': 1452}
+Move: ['1', '1', '1'] Value: 0.39447192127205527 {'wins': 479, 'visits': 1154}
+Move: ['3', '1', '0'] Value: 0.38467169136239837 {'wins': 459, 'visits': 1132}
+Move: ['3', '1', '1'] Value: 0.535377530942109 {'wins': 871, 'visits': 1575}
+Move: ['4', '1', '0'] Value: 0.51680552851938 {'wins': 806, 'visits': 1507}
+Move: ['4', '1', '1'] Value: 0.38961872431659866 {'wins': 469, 'visits': 1143}
+Move: ['0', '2', '1'] Value: 0.4660249822233983 {'wins': 652, 'visits': 1344}
+Move: ['3', '2', '1'] Value: 0.4330922296979746 {'wins': 567, 'visits': 1252}
+Move: ['0', '3', '0'] Value: 0.5256688418061766 {'wins': 837, 'visits': 1540}
+Move: ['0', '3', '1'] Value: 0.3807143058662846 {'wins': 451, 'visits': 1123}
+Move: ['1', '3', '0'] Value: 0.31918511307903286 {'wins': 340, 'visits': 996}
+Move: ['1', '3', '1'] Value: 0.5091568980642462 {'wins': 781, 'visits': 1481}
+Move: ['3', '3', '0'] Value: 0.5035805225635929 {'wins': 763, 'visits': 1462}
+Move: ['3', '3', '1'] Value: 0.42140870819531645 {'wins': 539, 'visits': 1221}
+Move: ['4', '3', '0'] Value: 0.38520560833928547 {'wins': 460, 'visits': 1133}
+Move: ['4', '3', '1'] Value: 0.4467557391005254 {'wins': 601, 'visits': 1289}
+Move: ['0', '4', '0'] Value: 0.454351324343002 {'wins': 621, 'visits': 1311}
+Move: ['0', '4', '1'] Value: 0.45058549313211693 {'wins': 611, 'visits': 1300}
+Move: ['1', '4', '0'] Value: 0.45598171094277096 {'wins': 625, 'visits': 1315}
+Move: ['1', '4', '1'] Value: 0.4538865459877407 {'wins': 619, 'visits': 1308}
+Move: ['2', '4', '1'] Value: 0.42337408977718677 {'wins': 544, 'visits': 1227}
+Move: ['3', '4', '0'] Value: 0.49057885834226517 {'wins': 723, 'visits': 1420}
+Move: ['3', '4', '1'] Value: 0.42896093397636426 {'wins': 557, 'visits': 1241}
+Move: ['4', '4', '0'] Value: 0.45182811672533224 {'wins': 614, 'visits': 1303}
+Move: ['4', '4', '1'] Value: 0.44414227772408854 {'wins': 594, 'visits': 1281}
+= 1
+opponent : legal 3 1 1
+yes
+= 1
+opponent : play 3 1 1
+= 1
+opponent : show
+00...
+..11.
+.00.0
+..0..
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+2 0 1
+= 1
+student : play 2 0 1
+= 1
+opponent : show
+001..
+..11.
+.00.0
+..0..
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+3 0 1
+Root board state: 
+001..
+..11.
+.00.0
+..0..
+.....
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[2, 1], [0, 2], [3, 0], [1, 0], [0, 0]]
+Root numOfDigitsInCol: 
+[[1, 0], [2, 0], [2, 2], [0, 1], [1, 0]] 
+Moves detail: 
+Move: ['3', '0', '0'] Value: 0.49057867522054455 {'wins': 722, 'visits': 1418}
+Move: ['3', '0', '1'] Value: 0.6463926274147574 {'wins': 1381, 'visits': 2087}
+Move: ['4', '0', '0'] Value: 0.6178085219287258 {'wins': 1225, 'visits': 1933}
+Move: ['4', '0', '1'] Value: 0.48413025904786733 {'wins': 702, 'visits': 1396}
+Move: ['0', '1', '0'] Value: 0.5714351073252548 {'wins': 1009, 'visits': 1715}
+Move: ['0', '1', '1'] Value: 0.48773698277342953 {'wins': 713, 'visits': 1408}
+Move: ['4', '1', '0'] Value: 0.5360124515770297 {'wins': 872, 'visits': 1575}
+Move: ['0', '2', '1'] Value: 0.6072599591786434 {'wins': 1172, 'visits': 1880}
+Move: ['3', '2', '1'] Value: 0.5278223031651476 {'wins': 843, 'visits': 1545}
+Move: ['0', '3', '0'] Value: 0.5937058446840707 {'wins': 1108, 'visits': 1816}
+Move: ['0', '3', '1'] Value: 0.49233600101236547 {'wins': 727, 'visits': 1423}
+Move: ['1', '3', '0'] Value: 0.4212962047989052 {'wins': 538, 'visits': 1219}
+Move: ['1', '3', '1'] Value: 0.5649684951904983 {'wins': 983, 'visits': 1689}
+Move: ['3', '3', '0'] Value: 0.5891574559377377 {'wins': 1086, 'visits': 1793}
+Move: ['3', '3', '1'] Value: 0.5088556590653333 {'wins': 779, 'visits': 1478}
+Move: ['4', '3', '0'] Value: 0.5915016937401849 {'wins': 1098, 'visits': 1806}
+Move: ['4', '3', '1'] Value: 0.535143817657609 {'wins': 869, 'visits': 1572}
+Move: ['0', '4', '0'] Value: 0.6185813353027716 {'wins': 1229, 'visits': 1937}
+Move: ['0', '4', '1'] Value: 0.4631979063998949 {'wins': 643, 'visits': 1333}
+Move: ['1', '4', '0'] Value: 0.6076687477423606 {'wins': 1174, 'visits': 1882}
+Move: ['1', '4', '1'] Value: 0.4845016112273259 {'wins': 704, 'visits': 1399}
+Move: ['2', '4', '1'] Value: 0.6229092514538412 {'wins': 1250, 'visits': 1957}
+Move: ['3', '4', '0'] Value: 0.5783220988647843 {'wins': 1039, 'visits': 1746}
+Move: ['3', '4', '1'] Value: 0.4748721694667641 {'wins': 676, 'visits': 1369}
+Move: ['4', '4', '0'] Value: 0.5227098066982474 {'wins': 825, 'visits': 1526}
+Move: ['4', '4', '1'] Value: 0.5474925466591061 {'wins': 914, 'visits': 1618}
+= 1
+opponent : legal 3 0 1
+yes
+= 1
+opponent : play 3 0 1
+= 1
+opponent : show
+0011.
+..11.
+.00.0
+..0..
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+4 0 0
+= 1
+student : play 4 0 0
+= 1
+opponent : show
+00110
+..11.
+.00.0
+..0..
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+1 3 0
+Root board state: 
+00110
+..11.
+.00.0
+..0..
+.....
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[3, 2], [0, 2], [3, 0], [1, 0], [0, 0]]
+Root numOfDigitsInCol: 
+[[1, 0], [2, 0], [2, 2], [0, 2], [2, 0]] 
+Moves detail: 
+Move: ['0', '1', '0'] Value: 0.6914883991797328 {'wins': 1559, 'visits': 2207}
+Move: ['0', '1', '1'] Value: 0.5022048460847471 {'wins': 717, 'visits': 1376}
+Move: ['0', '2', '1'] Value: 0.7539329724029029 {'wins': 2037, 'visits': 2654}
+Move: ['0', '3', '0'] Value: 0.7070806400199333 {'wins': 1667, 'visits': 2310}
+Move: ['0', '3', '1'] Value: 0.5840461933523458 {'wins': 1001, 'visits': 1665}
+Move: ['1', '3', '0'] Value: inf {'wins': inf, 'visits': 2169}
+Move: ['1', '3', '1'] Value: 0.6166263553793219 {'wins': 1144, 'visits': 1807}
+Move: ['3', '3', '0'] Value: 0.6168338449802782 {'wins': 1145, 'visits': 1808}
+Move: ['3', '3', '1'] Value: 0.7078834582628832 {'wins': 1671, 'visits': 2313}
+Move: ['4', '3', '0'] Value: 0.7582506888685161 {'wins': 2076, 'visits': 2690}
+Move: ['4', '3', '1'] Value: 0.6352952755907657 {'wins': 1235, 'visits': 1896}
+Move: ['0', '4', '0'] Value: 0.7059634429054358 {'wins': 1658, 'visits': 2301}
+Move: ['0', '4', '1'] Value: 0.607134089431932 {'wins': 1101, 'visits': 1765}
+Move: ['1', '4', '0'] Value: 0.7494971441347192 {'wins': 1998, 'visits': 2618}
+Move: ['1', '4', '1'] Value: 0.5098631416375589 {'wins': 740, 'visits': 1400}
+Move: ['2', '4', '1'] Value: 0.7582506888685161 {'wins': 2076, 'visits': 2690}
+Move: ['3', '4', '0'] Value: 0.7125040906043735 {'wins': 1704, 'visits': 2344}
+Move: ['3', '4', '1'] Value: 0.506078071932696 {'wins': 728, 'visits': 1387}
+Move: ['4', '4', '0'] Value: 0.6497110266854614 {'wins': 1311, 'visits': 1970}
+Move: ['4', '4', '1'] Value: 0.6309600368023504 {'wins': 1214, 'visits': 1876}
+= 1
+opponent : legal 1 3 0
+yes
+= 1
+opponent : play 1 3 0
+= 1
+opponent : show
+00110
+..11.
+.00.0
+.00..
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+0 1 0
+= 1
+student : play 0 1 0
+= 1
+opponent : show
+00110
+0.11.
+.00.0
+.00..
+.....
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+3 4 1
+Root board state: 
+00110
+0.11.
+.00.0
+.00..
+.....
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[3, 2], [1, 2], [3, 0], [2, 0], [0, 0]]
+Root numOfDigitsInCol: 
+[[2, 0], [3, 0], [2, 2], [0, 2], [2, 0]] 
+Moves detail: 
+Move: ['0', '2', '1'] Value: 0.9022157773734839 {'wins': 129, 'visits': 134}
+Move: ['0', '3', '1'] Value: 0.877772013743651 {'wins': 123, 'visits': 131}
+Move: ['3', '3', '1'] Value: 0.9404120428468876 {'wins': 138, 'visits': 138}
+Move: ['4', '3', '0'] Value: 0.9022157773734839 {'wins': 129, 'visits': 134}
+Move: ['4', '3', '1'] Value: 0.8443781566461771 {'wins': 116, 'visits': 128}
+Move: ['0', '4', '0'] Value: 0.9175313701701068 {'wins': 132, 'visits': 135}
+Move: ['0', '4', '1'] Value: 0.7890839941636796 {'wins': 104, 'visits': 122}
+Move: ['1', '4', '1'] Value: 0.9175313701701068 {'wins': 132, 'visits': 135}
+Move: ['2', '4', '1'] Value: 0.8521906566461771 {'wins': 117, 'visits': 128}
+Move: ['3', '4', '0'] Value: 0.9404120428468876 {'wins': 138, 'visits': 138}
+Move: ['3', '4', '1'] Value: inf {'wins': inf, 'visits': 117}
+Move: ['4', '4', '0'] Value: 0.817390096630006 {'wins': 110, 'visits': 125}
+Move: ['4', '4', '1'] Value: 0.9404120428468876 {'wins': 138, 'visits': 138}
+= 1
+opponent : legal 3 4 1
+yes
+= 1
+opponent : play 3 4 1
+= 1
+opponent : show
+00110
+0.11.
+.00.0
+.00..
+...1.
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+0 2 1
+= 1
+student : play 0 2 1
+= 1
+opponent : show
+00110
+0.11.
+100.0
+.00..
+...1.
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+4 4 1
+Root board state: 
+00110
+0.11.
+100.0
+.00..
+...1.
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[3, 2], [1, 2], [3, 1], [2, 0], [0, 1]]
+Root numOfDigitsInCol: 
+[[2, 1], [3, 0], [2, 2], [0, 3], [2, 0]] 
+Moves detail: 
+Move: ['0', '3', '1'] Value: 0.7 {'wins': 14, 'visits': 16}
+Move: ['4', '3', '0'] Value: 0.5525941105103205 {'wins': 11, 'visits': 15}
+Move: ['4', '3', '1'] Value: 0.7 {'wins': 14, 'visits': 16}
+Move: ['0', '4', '0'] Value: 0.7 {'wins': 14, 'visits': 16}
+Move: ['0', '4', '1'] Value: -inf {'wins': -inf, 'visits': 14}
+Move: ['1', '4', '1'] Value: 0.7625 {'wins': 15, 'visits': 16}
+Move: ['2', '4', '1'] Value: 0.38434570208987434 {'wins': 8, 'visits': 14}
+Move: ['4', '4', '0'] Value: -inf {'wins': -inf, 'visits': 15}
+Move: ['4', '4', '1'] Value: inf {'wins': inf, 'visits': 17}
+= 1
+opponent : legal 4 4 1
+yes
+= 1
+opponent : play 4 4 1
+= 1
+opponent : show
+00110
+0.11.
+100.0
+.00..
+...11
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+0 3 1
+= 1
+student : play 0 3 1
+= 1
+opponent : show
+00110
+0.11.
+100.0
+100..
+...11
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+4 3 0
+Root board state: 
+00110
+0.11.
+100.0
+100..
+...11
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[3, 2], [1, 2], [3, 1], [2, 1], [0, 2]]
+Root numOfDigitsInCol: 
+[[2, 2], [3, 0], [2, 2], [0, 3], [2, 1]] 
+Moves detail: 
+Move: ['4', '3', '0'] Value: inf {'wins': inf, 'visits': 4}
+Move: ['4', '3', '1'] Value: 0.65 {'wins': 4, 'visits': 4}
+Move: ['0', '4', '0'] Value: 0.5958548115672619 {'wins': 3, 'visits': 3}
+Move: ['1', '4', '1'] Value: 0.65 {'wins': 4, 'visits': 4}
+= 1
+opponent : legal 4 3 0
+yes
+= 1
+opponent : play 4 3 0
+= 1
+opponent : show
+00110
+0.11.
+100.0
+100.0
+...11
+= 1
+opponent : winner
+unfinished
+= 1
+
+Opponent program to play:
+opponent : genmove
+0 4 0
+= 1
+student : play 0 4 0
+= 1
+opponent : show
+00110
+0.11.
+100.0
+100.0
+0..11
+= 1
+opponent : winner
+unfinished
+= 1
+
+Student program to play:
+student : genmove
+1 4 1
+Root board state: 
+00110
+0.11.
+100.0
+100.0
+0..11
+Root player: 
+2
+Root numOfDigitsInRow: 
+[[3, 2], [1, 2], [3, 1], [3, 1], [1, 2]]
+Root numOfDigitsInCol: 
+[[3, 2], [3, 0], [2, 2], [0, 3], [3, 1]] 
+Moves detail: 
+Move: ['1', '4', '1'] Value: inf {'wins': inf, 'visits': 2}
+= 1
+opponent : legal 1 4 1
+yes
+= 1
+opponent : play 1 4 1
+= 1
+opponent : show
+00110
+0.11.
+100.0
+100.0
+01.11
+= 1
+opponent : winner
+2
+= 1
+The student program wins!
+
+
+=== Test 1 === 
+Command: 'game 5 5'
+Expected: '= 1'
+Received: '[32m= 1[0m'
+[32m+ Success[0m
+This command will NOT be marked.
+
+=== Test 2 === 
+Command: 'timelimit 30'
+Expected: '= 1'
+Received: '[32m= 1[0m'
+[32m+ Success[0m
+This command will NOT be marked.
+
+=== Test 3 === 
+Command: 'set_opponent random_player.py'
+Expected: '= 1'
+Received: '[32m= 1[0m'
+[32m+ Success[0m
+This command will NOT be marked.
+
+=== Test 4 === 
+Command: 'set_student_as_player 1'
+Expected: '= 1'
+Received: '[32m= 1[0m'
+[32m+ Success[0m
+This command will NOT be marked.
+
+=== Test 5 === 
+Command: 'play_game'
+Expected: 
+'
+1
+= 1
+'
+Received: 
+'
+[32m1
+= 1
+[0m'
+[32m+ Success[0m
+This command will be marked.
+
+=== Test 6 === 
+Command: 'set_student_as_player 2'
+Expected: '= 1'
+Received: '[32m= 1[0m'
+[32m+ Success[0m
+This command will NOT be marked.
+
+=== Test 7 === 
+Command: 'play_game'
+Expected: 
+'
+2
+= 1
+'
+Received: 
+'
+[32m2
+= 1
+[0m'
+[32m+ Success[0m
+This command will be marked.
+
+=== Test 8 === 
+Command: 'set_opponent minimax_player.py'
+Expected: '= 1'
+Received: '[32m= 1[0m'
+[32m+ Success[0m
+This command will NOT be marked.
+
+=== Test 9 === 
+Command: 'set_student_as_player 1'
+Expected: '= 1'
+Received: '[32m= 1[0m'
+[32m+ Success[0m
+This command will NOT be marked.
+
+=== Test 10 === 
+Command: 'play_game'
+Expected: 
+'
+1
+= 1
+'
+Received: 
+'
+[32m1
+= 1
+[0m'
+[32m+ Success[0m
+This command will be marked.
+
+=== Test 11 === 
+Command: 'set_student_as_player 2'
+Expected: '= 1'
+Received: '[32m= 1[0m'
+[32m+ Success[0m
+This command will NOT be marked.
+
+=== Test 12 === 
+Command: 'play_game'
+Expected: 
+'
+2
+= 1
+'
+Received: 
+'
+[32m2
+= 1
+[0m'
+[32m+ Success[0m
+This command will be marked.
+
+[34m	Failed commands (0):
+[0m
+[34m	Successful commands with mismatched outputs: (0):
+[0m
+[34m	Summary report:
+[0m
+12 Tests performed
+[32m12 Successful (100%)[0m
+[31m0 Failed (0%)[0m
+[31m0 Mismatched (0%)[0m
+[34m	Marks report:
+[0m
+4 / 4 marked tests = 2.0 / 2.0 marks.
+
+Finished in 1574.18 seconds.
+rom@ug09:~/assignment4>exit
+exit
+
+Script done on 2024-11-30 17:39:25-07:00 [COMMAND_EXIT_CODE="0"]
