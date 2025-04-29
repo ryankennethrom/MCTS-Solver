@@ -11,3 +11,4 @@ Below shows the winrate of the each move. The winrate is inf if the move follows
 ## Resources
 
 [Monte Carlo Tree Search Solver paper](https://dke.maastrichtuniversity.nl/m.winands/documents/uctloa.pdf)
+[Youtube Video Demo](https://www.youtube.com/watch?v=fomonQlLAmw)
