@@ -1,6 +1,6 @@
 # About
 
-Implementation of the paper "Monte Carlo Tree Search Solver" on the binary game.
+Play against an implementation of the paper "Monte Carlo Tree Search Solver" on the binary game.
 
 ## Demo
 
