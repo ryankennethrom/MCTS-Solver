@@ -10,7 +10,7 @@ Below shows the winrate of the each move. The winrate is inf if the move follows
 
 ## How to run
 
-python3 a4.py
+```python3 a4.py```
 
 ## Resources
 
